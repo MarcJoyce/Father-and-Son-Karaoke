@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --dark-blue: #12232E;
+  --light-blue: #007CC7;
+  --lightest-blue: #4DA8DA;
+  --dark-blue-shadow: #203647;
+  --light-blue-shadow: #EEFBFB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+body {
+ background-color: var(--dark-blue);
+ overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+nav {
+  padding: 0 50px;
+  height: 60px;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  position:fixed;
+  background-color: var(--dark-blue);
+  z-index: 100;
+}
+
+.menu__full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__full li {
+  padding: 15px;
+}
+
+.menu__full li a {
+  color: #FFF;
+}
+
+.menu__full li a:hover {
+  color: red;
+}
+
+.menu__toggle {
+  display: none;
+}
+
+section {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--dark-blue);
+  padding-bottom: 5px;
+  border-bottom: 3px solid var(--dark-blue-shadow);
+  letter-spacing: 2px;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+#hero h1 {
+  position: absolute;
+  bottom: 10%;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #CCC;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#about {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#about img {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  padding-right: 50px;
+  border-radius: 50%;
+}
+
+.about__text {
+  padding: 20px 0px;
+  color: #fff;
+}
+
+#videos {
+  background-color: var(--light-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#videos p {
+  font-size: 1.25rem;
+  width: 75%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.youtube__container {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.youtube {
+  height: 320px;
+  flex: 1 1 300px;
+  padding: 20px;
+}
