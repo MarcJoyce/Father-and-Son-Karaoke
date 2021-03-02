@@ -4,30 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script type="javascript/text" src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
     <title>Father and Son | Karaoke Kings</title>
   </head>
   <body>
     <nav>
-      <a href="#">
-        <img src="" alt="logo image" />
+      <a href="#hero">
+        <!-- <img src="" alt="logo image" /> -->
+        <h1>Father and Son</h1>
       </a>
 
       <ul class="menu__full">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Videos</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#merchandise">Merchandise</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
+      <div class="toggle" onclick="toggleMenu()">
+        <i class="menu fa fa-bars active" ></i>
+        <i class="close fa fa-times"></i>
+      </div>
       <div class="menu__toggle">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Videos</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#merchandise">Merchandise</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -53,7 +59,11 @@
     </section>
     <section id="videos">
       <h2 class="title">Videos</h2>
-      <p>Check out some of our latest videos, for more you can visit our <a href="" class="youtube__link">YouTube</a> channel or our <a href="" class="facebook__link">Facebook</a> page</p>
+      <p>
+        Check out some of our latest videos, for more you can visit our
+        <a href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA" class="channel__link">YouTube</a> channel or our
+        <a href="https://www.facebook.com/fatherandsonkaraoke/" class="channel__link">Facebook</a> page
+      </p>
       <div class="youtube__container">
         <iframe
           class="youtube"
@@ -80,12 +90,73 @@
         ></iframe>
       </div>
     </section>
-    <section id="shop">
-      <h2 class="title">Shop</h2>
+    <section id="merchandise">
+      <h2 class="title">Merchandise</h2>
+      <div class="merchandise__container">
+        <div class="merchandise__box">
+          <h6 class="merchandise__title">Father And Son Lockdown CD</h6>
+          <a
+            href="https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919"
+            target="_blank"
+          >
+            <img
+              src="cd_image.jpg"
+              alt="cd picture"
+              class="merchandise__picture"
+            />
+          </a>
+          <p class="merchandise__description">
+            Collection of Wal and Dion's best hits!
+          </p>
+        </div>
+        <div class="merchandise__box">
+          <h6 class="merchandise__title">Father And Son Wristbands</h6>
+          <a
+            href="https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523"
+            target="_blank"
+          >
+            <img
+              src="wristband_image.jpg"
+              alt="wristbands"
+              class="merchandise__picture"
+            />
+          </a>
+          <p class="merchandise__description">
+            Father and Son wristbands description
+          </p>
+        </div>
+      </div>
     </section>
     <section id="contact">
       <h2 class="title">Contact Us</h2>
+      <p>
+        We would love to hear from you and share your musical stories. We love
+        hearing from our fans and hope you're all doing well during these
+        difficult times.
+      </p>
+      <div class="socials__container">
+        <a href="">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/fatherandsonkaraoke/">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA">
+          <i class="fa fa-youtube"></i>
+        </a>
+      </div>
     </section>
-    <footer></footer>
+    <footer>
+      <p>
+        © Copyright Father and Son Karaoke Kings
+      </p>
+      <p class="web">
+        Website created by 
+        <a href="">Marc Joyce</a>
+      </p>
+    </footer>
   </body>
 </html>
