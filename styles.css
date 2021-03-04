@@ -32,7 +32,6 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: inherit;
 }
 nav {
   padding: 0 50px;
@@ -44,6 +43,10 @@ nav {
   position: fixed;
   background-color: var(--dark-blue);
   z-index: 100;
+  color: #ccc;
+}
+
+nav a {
   color: #ccc;
 }
 
@@ -92,13 +95,9 @@ nav {
 }
 
 .menu__toggle {
-  display: none !important;
-}
-
-.menu__toggle.active {
   display: flex !important;
   position: absolute;
-  top: 0;
+  top: -100vh;
   left: 0;
   height: 100vh;
   width: 100vw;
@@ -106,22 +105,27 @@ nav {
   justify-content: center;
   align-items: center;
   background: var(--dark-blue);
+  transition: 0.5s all ease;
 }
 
-.menu__toggle.active ul {
+.menu__toggle.active {
+  top: 0;
+}
+
+.menu__toggle ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.menu__toggle.active ul li {
+.menu__toggle ul li {
   font-size: 2rem;
   padding: 20px;
   transition: 0.5s all ease;
 }
 
-.menu__toggle.active ul li:hover {
+.menu__toggle ul li:hover {
   color: var(--light-blue);
   transition: 0.5s all ease;
 }
@@ -210,7 +214,17 @@ section {
 }
 
 .channel__link {
-  color: #ccc !important;
+  color: #ccc;
+  font-weight: bold;
+  transition: 0.5s all ease;
+}
+
+#videos .channel__link:hover {
+  color: var(--dark-blue);
+}
+
+.channel__link:hover {
+  color: var(--light-blue);
 }
 
 .youtube__container {
@@ -262,7 +276,7 @@ section {
   width: 300px;
 }
 
-.merchandise__box a img {
+.merchandise__picture {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -323,7 +337,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   section {
-    padding: 50px;
+    padding: 100px 50px;
   }
 
   .socials__container i {
