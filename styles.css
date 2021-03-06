@@ -213,6 +213,16 @@ section {
   text-align: center;
 }
 
+#videos .btn {
+  padding: 10px;
+  background: var(--dark-blue);
+  color: #CCC;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-top: 50px;
+}
+
 .channel__link {
   color: #ccc;
   font-weight: bold;
