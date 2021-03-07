@@ -214,10 +214,11 @@ section {
 }
 
 #videos .btn {
-  padding: 10px;
+  padding: 20p.x;
   background: var(--dark-blue);
   color: #CCC;
   text-align: center;
+  text:transform: uppercase;
   border-radius: 8px;
   font-size: 0.8rem;
   margin-top: 50px;
