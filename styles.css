@@ -192,6 +192,7 @@ section {
   padding: 20px;
   padding-right: 50px;
   border-radius: 50%;
+  object-fit: cover;.
 }
 
 .about__text {
