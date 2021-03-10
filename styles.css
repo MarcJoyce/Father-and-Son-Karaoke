@@ -187,7 +187,8 @@ section {
 }
 
 #about img {
-  width: 80%;
+  width: 300px;
+  height: 300px;
   padding: 20px;
   padding-right: 50px;
   border-radius: 50%;
@@ -363,9 +364,8 @@ footer {
     flex-direction: column;
   }
 
-  #about img {
-    height: 200px;
-    width: 200px;
+  #about img {>
+    width: 80%;
     border-radius: 8px;
   }
 
