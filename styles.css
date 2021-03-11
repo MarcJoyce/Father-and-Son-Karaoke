@@ -189,16 +189,14 @@ section {
 #about img {
   width: 300px;
   height: 300px;
-  padding: 20px;
-  padding-right: 50px;
-  border-radius: 50%;
-  object-fit: cover;.
+  padding: 25px;
+  margin-right: 25px;
+  object-fit: cover;
 }
 
 .about__text {
-  padding: 20px 0px;
+  padding: 10px 0px;
   color: #ccc;
-   text-align: center;.
 }
 
 #videos {
@@ -350,7 +348,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   section {
-    padding: 100px 50px;
+    padding: 50px 25px;
   }
 
   .socials__container i {
@@ -364,9 +362,12 @@ footer {
     flex-direction: column;
   }
 
-  #about img {>
-    width: 80%;
-    border-radius: 8px;
+  #about img {
+    width: 100%;
+  }
+
+  .about__text {
+    text-align: center;
   }
 
   .menu__full {
