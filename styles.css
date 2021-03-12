@@ -181,7 +181,13 @@ section {
 #about {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .about__container {
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
