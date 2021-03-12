@@ -368,9 +368,9 @@ footer {
     color: #000;
     padding: 0 25px;
     transition: 0.5s all ease;
-  }
-
-  #about {
+  } 
+   
+  #about .about__container {
     flex-direction: column;
   }
 
