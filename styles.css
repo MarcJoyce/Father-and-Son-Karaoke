@@ -186,6 +186,11 @@ section {
   align-items: center;
 }
 
+#about .title {
+  margin-top: 50px;
+  color: var(--light-blue);
+}
+
 #about img {
   width: 300px;
   height: 300px;
