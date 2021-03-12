@@ -218,10 +218,11 @@ section {
   background: var(--dark-blue);
   color: #CCC;
   text-align: center;
-  text:transform: uppercase;
+  text-transform: uppercase;
+  font-weight: bold;
   border-radius: 8px;
-  font-size: 0.8rem;
-  margin-top: 50px;
+  font-size: 1.2rem;
+  margin-top: 25px;
 }
 
 .channel__link {
