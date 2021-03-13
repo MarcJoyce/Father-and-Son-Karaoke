@@ -164,6 +164,7 @@ section:nth-child(even) {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 
 #hero img {
@@ -324,6 +325,7 @@ section:nth-child(even) {
 
 #contact p {
   text-align: center;
+  color: #ccc;
 }
 
 .socials__container {
