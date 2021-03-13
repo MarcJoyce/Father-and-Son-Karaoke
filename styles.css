@@ -138,11 +138,11 @@ section {
   align-items: center;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
   background-color: var(--dark-blue);
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
   background-color: var(--light-blue);
 }
 
@@ -229,6 +229,7 @@ section:nth-child(odd) {
   font-size: 1.25rem;
   width: 100%;
   text-align: center;
+  color: #ccc;
 }
 
 #videos .btn {
