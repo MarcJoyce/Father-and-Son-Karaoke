@@ -139,11 +139,11 @@ section {
 }
 
 section:nth-child(even) {
-  background: var(--dark-blue);
+  background-color: var(--dark-blue);
 }
 
 section:nth-child(odd) {
-  background: var(light-blue);
+  background-color: var(--light-blue);
 }
 
 .title {
