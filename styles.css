@@ -338,13 +338,13 @@ section:nth-child(even) {
 
 .socials__container i {
   font-size: 4rem;
-  color: #000;
+  color: #ccc;
   padding: 0 50px;
   transition: 0.5s all ease;
 }
 
 .socials__container i:hover {
-  color: #ccc;
+  color: #aaa;
   transition: 0.5s all ease;
 }
 
