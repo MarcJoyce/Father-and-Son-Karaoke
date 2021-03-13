@@ -272,6 +272,10 @@ section:nth-child(odd) {
   padding: 20px;
 }
 
+#news p {
+  color: #ccc;
+}
+
 #merchandise * {
   color: #ccc;
 }
