@@ -138,6 +138,14 @@ section {
   align-items: center;
 }
 
+section:nth-child(even) {
+  background: var(--dark-blue);
+}
+
+section:nth-child(odd) {
+  background: var(light-blue);
+}
+
 .title {
   font-size: 2rem;
   color: #ccc;
@@ -211,7 +219,6 @@ section {
 }
 
 #videos {
-  background-color: var(--light-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -308,10 +315,6 @@ section {
 .merchandise__description {
   text-align: center;
   font-size: 0.8rem;
-}
-
-#contact {
-  background-color: var(--light-blue);
 }
 
 #contact p {
