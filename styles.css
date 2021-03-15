@@ -156,6 +156,15 @@ section:nth-child(even) {
   text-align: center;
 }
 
+.sub-title {
+  font-size: 1.2rem;
+  color: #ccc;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--dark-blue-shadow);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
 #hero {
     top: 60px;
     height: 100vmin;
