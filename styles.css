@@ -160,6 +160,7 @@ section:nth-child(even) {
   font-size: 1.2rem;
   color: #ccc;
   padding-bottom: 5px;
+  margin: 10px 0;
   border-bottom: 1px solid var(--dark-blue-shadow);
   letter-spacing: 1px;
   text-align: center;
