@@ -315,6 +315,8 @@ section:nth-child(even) {
 .merchandise__title {
   font-size: 1.25rem;
   text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
 .merchandise__box a {
