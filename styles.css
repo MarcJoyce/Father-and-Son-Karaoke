@@ -243,6 +243,10 @@ section:nth-child(even) {
   color: #ccc;
 }
 
+#videos .sub-title {
+  margin-top: 20px;
+}
+
 #videos .btn {
   padding: 20px;
   background: var(--dark-blue);
