@@ -262,6 +262,7 @@ section:nth-child(even) {
 
 #videos .btn:hover {
   background: var(--light-blue);
+  border: 1px solid var(--dark-blue);
   transition: 0.5s all ease;
 }
 
