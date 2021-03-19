@@ -126,7 +126,8 @@ nav a {
 }
 
 .menu__toggle ul li:hover {
-  background: var(--light-blue);
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--light-blue);
   transition: 0.5s all ease;
 }
 
