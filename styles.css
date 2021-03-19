@@ -125,11 +125,6 @@ nav a {
   transition: 0.5s all ease;
 }
 
-.menu__toggle ul li:hover {
-  color: var(--light-blue);
-  transition: 0.5s all ease;
-}
-
 section {
   padding: 100px;
   display: flex;
