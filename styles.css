@@ -257,6 +257,12 @@ section:nth-child(even) {
   border-radius: 8px;
   font-size: 1.2rem;
   margin-top: 25px;
+  transition: 0.5s all ease;
+}
+
+#videos .btn:hover {
+  background: var(--light-blue);
+  transition: 0.5s all ease;
 }
 
 .channel__link {
