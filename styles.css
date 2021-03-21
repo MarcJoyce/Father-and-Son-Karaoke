@@ -297,19 +297,22 @@ section:nth-child(even) {
 .news__container {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   padding: 50px;
 }
 
 .news__box {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .news__title {
   color: #ccc;
   font-size: 1.2rem;
   font-weight: bold;
+  margin: 25px;
 }
 
 .news__text {
