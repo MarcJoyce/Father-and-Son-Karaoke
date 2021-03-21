@@ -307,6 +307,7 @@ section:nth-child(even) {
 }
 
 .news__title {
+  color: #ccc;
   font-size: 1.2rem;
   font-weight: bold;
 }
