@@ -298,7 +298,6 @@ section:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
 }
 
 .news__box {
@@ -306,6 +305,7 @@ section:nth-child(even) {
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
+  padding: 0 50px;
 }
 
 .news__title {
@@ -444,5 +444,9 @@ footer {
 
   .menu.active {
     display: block !important;
+  }
+
+  .news__box {
+    padding: 0 25px;
   }
 }
