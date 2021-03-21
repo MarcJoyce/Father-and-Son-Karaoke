@@ -290,8 +290,29 @@ section:nth-child(even) {
   padding: 20px;
 }
 
-#news p {
+#news * {
   color: #ccc;
+}
+
+.news__container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 50px;
+}
+
+.news__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.news__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.news__text {
+  font-size: 0.8rem;
 }
 
 #merchandise * {
