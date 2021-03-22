@@ -4,178 +4,172 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="app.js"></script>
-    <title>Father and Son | Karaoke Kings</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="app.js" defer></script>
+    <title>Father and Son The Karaoke Kings</title>
   </head>
   <body>
     <nav>
-      <a href="/..
-">
-        <!-- <img src="" alt="logo image" /> -->
-        <h1>Father and Son</h1>
-      </a>
-
-      <ul class="menu__full">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#videos">Videos</a></li>
-        <li><a href="#merchandise">Merchandise</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
-      <div class="toggle" onclick="toggleMenu()">
-        <i class="menu fa fa-bars active" ></i>
-        <i class="close fa fa-times"></i>
-      </div>
-      <div class="menu__toggle">
+      <div class="menu__container">
+        <h1 class="title">Father and Son the Karaoke Kings</h1>
         <ul>
-          <li><a href="#hero" onclick="toggleMenu()">Home</a></li>
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#videos" onclick="toggleMenu()">Videos</a></li>
-          <li><a href="#merchandise" onclick="toggleMenu()">Merchandise</a></li>
-          <li><a href="#contact" onclick="toggleMenu()" >Contact</a></li>
+          <li><a href="#home" class="menu__item active">Home</a></li>
+          <span>/</span>
+          <li><a href="#music" class="menu__item">Music</a></li>
+          <span>/</span>
+          <li><a href="#news" class="menu__item">News</a></li>
+          <span>/</span>
+          <li><a href="#gallery" class="menu__item">Gallery</a></li>
+          <span>/</span>
+          <li><a href="#about" class="menu__item">About us</a></li>
+          <span>/</span>
+          <li><a href="#shop" class="menu__item">Shop</a></li>
+        </ul>
+      </div>
+      <div class="socials__container">
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/fatherandsonkaraoke/"
+              target="_blank"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA"
+              target="_blank"
+            >
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
-
-    <section id="hero">
-      <img src="hero_image.jpg" alt="hero__image" />
-      <h1>Father and Son Karaoke Kings</h1>
-    </section>
-    <section id="about">
-      <img src="profile_image.jpg" alt="dion and wally" />
-      <div class="about__text__container">
-        <p class="about__text">
-          Hi, we're Wal and Dion. A father and son duo act from Fleetwood, UK.
-          We LOVE music and want to share our love with the world during a time
-          when we need to pull together and share our passions.
-        </p>
-        <p class="about__text">
-          Dion has always followed his dad's singing career very closely and loves joining in when Wal is on stage; but they have never sung as a duo until April 2020. The coronavirus lockdown in the UK impacted a lot of people very hard and Wal and Dion both agreed that their love of music should be shared across the world, so felt it was time to combine their talents.
-        </p>
-        <p class="about__text">
-         We created the Father and Son Karaoke Kings channel in April 2020, and have posted a new song every day since, for over 350 songs. You can check out our channels on either <a class="channel__link" href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA">
-         Youtube
-        </a>,  
-        <a class="channel__link" href="https://www.facebook.com/fatherandsonkaraoke/">
-          Facebook
-        </a> or  
-        <a class="channel__link" href="https://www.facebook.com/fatherandsonkaraoke/">
-          Instagram
-        </a>.
-        </p>
-        <p class="about__text">
-          Despite Dion having disabilities, it has never stopped him doing the things he wants to do in life and his ambition and passion has been an inspiration for children and adults alike. He is extremely grateful to all those he can inspire around the world.
-         </p>
-        <p class="about__text">
-          Sharing our musical love with the world has helped overcome the daily struggles through the past year and we are so thankful our music has helped others overcome their own struggles.
-         </p>
-         <p class="about__text">
-          From all of us supporting Wal and Dion, welcome to our online family. We cannot thank you enough!
-         </p>
-      </div>
-    </section>
-    <section id="videos">
-      <h2 class="title">Videos</h2>
-      <p>
-        Check out some of our latest videos, for more you can visit our
-        <a href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA" class="channel__link">YouTube</a> channel or our
-        <a href="https://www.facebook.com/fatherandsonkaraoke/" class="channel__link">Facebook</a> page
-      </p>
-      <div class="youtube__container">
-        <iframe
-          class="youtube"
-          src="https://youtube.com/embed/nroC2BLVNB0"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-
-        <iframe
-          class="youtube"
-          src="https://www.youtube.com/embed/vtNrU-1eKvE"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-
-        <iframe
-          class="youtube"
-          src="https://www.youtube.com/embed/_3w5H76QYiE"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
-    <section id="merchandise">
-      <h2 class="title">Merchandise</h2>
-      <div class="merchandise__container">
-        <div class="merchandise__box">
-          <h6 class="merchandise__title">Father And Son Lockdown CD</h6>
-          <a
-            href="https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919"
-            target="_blank"
-          >
-            <img
-              src="cd_image.jpg"
-              alt="cd picture"
-              class="merchandise__picture"
-            />
-          </a>
-          <p class="merchandise__description">
-            Collection of Wal and Dion's best hits!
+    <header id="home">
+      <img src="hero_image.jpg" alt="" class="hero__image" />
+      <div class="hero__container">
+        <div class="hero__title__container">
+          <h2 class="hero__title">New Video</h2>
+          <h2 class="hero__name">Walk of Life</h2>
+          <h6 class="hero__artist">Dire Straits</h6>
+        </div>
+        <div class="hero__description__container">
+          <p class="hero__description__text">
+            A simple rock and roll rhythm with along introduction that has
+            become iconic, with an instantly recognisable melody played on
+            synthesizers, giving it a slight Cajun twist.
           </p>
         </div>
-        <div class="merchandise__box">
-          <h6 class="merchandise__title">Father And Son Wristbands</h6>
-          <a
-            href="https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523"
-            target="_blank"
-          >
-            <img
-              src="wristband_image.jpg"
-              alt="wristbands"
-              class="merchandise__picture"
-            />
+        <div class="hero__cta__container">
+          <a href="https://www.youtube.com/watch?v=0kJKk0F-J_g" target="_blank"
+            ><i class="fa fa-play-circle"></i>
+            <p>Click here</p>
           </a>
-          <p class="merchandise__description">
-            Father and Son wristbands description
+        </div>
+      </div>
+    </header>
+    <section id="music">
+      <h2 class="section__title">Our Music</h2>
+      <div class="music__container"></div>
+      <a
+        href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA"
+        target="_blank"
+        class="music__cta"
+        >Click here for more videos</a
+      >
+    </section>
+    <section id="news">
+      <h2 class="section__title">News</h2>
+      <div class="news__container">
+        <div class="news__item">
+          <h6 class="news__headline">Latest News</h6>
+          <p class="news__description">
+            This is text which describes the latest news. Anything can go here,
+            but best to limit to brief eye-catching information
           </p>
+          <a href="#" class="news__cta">Read more</a>
+        </div>
+        <div class="news__item">
+          <h6 class="news__headline">Latest News</h6>
+          <p class="news__description">
+            This is text which describes the latest news. Anything can go here,
+            but best to limit to brief eye-catching information
+          </p>
+          <a href="#" class="news__cta">Read more</a>
+        </div>
+        <div class="news__item">
+          <h6 class="news__headline">Latest News</h6>
+          <p class="news__description">
+            This is text which describes the latest news. Anything can go here,
+            but best to limit to brief eye-catching information
+          </p>
+          <a href="#" class="news__cta">Read more</a>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <h2 class="section__title">Gallery</h2>
+      <div class="gallery__container">
+        <img src="image_1.jpg" alt="" />
+        <img src="image_2.jpg" alt="" />
+        <img src="image_3.jpg" alt="" />
+        <img src="image_4.jpg" alt="" />
+        <img src="image_5.jpg" alt="" />
+        <img src="image_6.jpg" alt="" />
+        <img src="image_7.jpg" alt="" />
+        <img src="image_8.jpg" alt="" />
+      </div>
+    </section>
+    <section id="about">
+      <h2 class="section__title">About us</h2>
+      <div class="about__container">
+        <img src="image_8.jpg" alt="">
+        <p class="about__text">Hi, we're Wal and Dion. A father and son duo act from Fleetwood, UK. We LOVE music and want to share our love with the world during a time when we need to pull together and share our passions.
+          <br><br>
+          Dion has always followed his dad's singing career very closely and loves joining in when Wal is on stage; but they have never sung as a duo until April 2020. The coronavirus lockdown in the UK impacted a lot of people very hard and Wal and Dion both agreed that their love of music should be shared across the world, so felt it was time to combine their talents.
+          <br><br>
+          We created the Father and Son Karaoke Kings channel in April 2020, and have posted a new song every day since, for over 350 songs. You can check out our channels on either Youtube , Facebook or Instagram .
+          <br><br>
+          Despite Dion having disabilities, it has never stopped him doing the things he wants to do in life and his ambition and passion has been an inspiration for children and adults alike. He is extremely grateful to all those he can inspire around the world.
+          <br><br>
+          Sharing our musical love with the world has helped overcome the daily struggles through the past year and we are so thankful our music has helped others overcome their own struggles.
+          <br><br>
+          From all of us supporting Wal and Dion, welcome to our online family. We cannot thank you enough!</p>
+      </div>
+    </section>
+    <section id="shop">
+      <h2 class="section__title">Shop</h2>
+      <div class="shop__container">
+        <div class="shop__item">
+          <h6 class="shop__title">Father And Son Lockdown CD
+          </h6>
+          <p class="shop__description">Collection of Wal and Dion's best hits!</p>
+          <a href="https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919" target="_blank"><img src="cd_image.jpg" alt=""></a>
+        </div>
+        <div class="shop__item">
+          <h6 class="shop__title">
+            Father And Son Wristbands
+          </h6>
+          <p class="shop__description">Father and Son wristbands description</p>
+          <a href="https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523" target="_blank"><img src="wristband_image.jpg" alt=""></a>
         </div>
       </div>
     </section>
     <section id="contact">
-      <h2 class="title">Contact Us</h2>
-      <p>
-        We would love to hear from you and share your musical stories. We love
-        hearing from our fans and hope you're all doing well during these
-        difficult times.
-      </p>
-      <div class="socials__container">
-        <a href="">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="https://www.facebook.com/fatherandsonkaraoke/">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-instagram"></i>
-        </a>
-        <a href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA">
-          <i class="fa fa-youtube"></i>
-        </a>
+      <h2 class="section__title">Contact Us</h2>
+      <div class="contact__container">
+        <p>Please get in touch, we love hearing from our fans and want to hear from you</p>
       </div>
     </section>
-    <footer>
-      <p>
-        © Copyright Father and Son Karaoke Kings
-      </p>
-      <p class="web">
-        Website created by 
-        <a href="">Marc Joyce</a>
-      </p>
-    </footer>
   </body>
 </html>
