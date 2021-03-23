@@ -81,4 +81,15 @@ const loadVideos = () => {
   }
 }
 
+const toggleMenu = () => {
+  const menuButton = document.querySelector(".toggle__menu");
+  const bars = document.querySelector(".fa-bars");
+  const close = document.querySelector(".fa-times");
+  const menu = document.querySelector(".responsive__menu");
+
+  menu.classList.toggle("active");
+  bars.classList.toggle("active");
+  close.classList.toggle("active");
+}
+
 loadVideos();

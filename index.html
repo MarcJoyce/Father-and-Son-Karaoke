@@ -15,7 +15,7 @@
     <nav>
       <div class="menu__container">
         <h1 class="title">Father and Son the Karaoke Kings</h1>
-        <ul>
+        <ul class="full__menu">
           <li><a href="#home" class="menu__item active">Home</a></li>
           <span>/</span>
           <li><a href="#music" class="menu__item">Music</a></li>
@@ -52,6 +52,20 @@
               <i class="fa fa-youtube"></i>
             </a>
           </li>
+        </ul>
+      </div>
+      <div class="toggle__menu" onclick="toggleMenu()">
+        <i class="fa fa-bars active"></i>
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="responsive__menu">
+        <ul>
+          <li onclick="toggleMenu()"><a href="#home" class="menu__item active">Home</a></li>
+          <li onclick="toggleMenu()"><a href="#music" class="menu__item">Music</a></li>
+          <li onclick="toggleMenu()"><a href="#news" class="menu__item">News</a></li>
+          <li onclick="toggleMenu()"><a href="#gallery" class="menu__item">Gallery</a></li>
+          <li onclick="toggleMenu()"><a href="#about" class="menu__item">About us</a></li>
+          <li onclick="toggleMenu()"><a href="#shop" class="menu__item">Shop</a></li>
         </ul>
       </div>
     </nav>
@@ -133,43 +147,99 @@
     <section id="about">
       <h2 class="section__title">About us</h2>
       <div class="about__container">
-        <img src="image_8.jpg" alt="">
-        <p class="about__text">Hi, we're Wal and Dion. A father and son duo act from Fleetwood, UK. We LOVE music and want to share our love with the world during a time when we need to pull together and share our passions.
-          <br><br>
-          Dion has always followed his dad's singing career very closely and loves joining in when Wal is on stage; but they have never sung as a duo until April 2020. The coronavirus lockdown in the UK impacted a lot of people very hard and Wal and Dion both agreed that their love of music should be shared across the world, so felt it was time to combine their talents.
-          <br><br>
-          We created the Father and Son Karaoke Kings channel in April 2020, and have posted a new song every day since, for over 350 songs. You can check out our channels on either Youtube , Facebook or Instagram .
-          <br><br>
-          Despite Dion having disabilities, it has never stopped him doing the things he wants to do in life and his ambition and passion has been an inspiration for children and adults alike. He is extremely grateful to all those he can inspire around the world.
-          <br><br>
-          Sharing our musical love with the world has helped overcome the daily struggles through the past year and we are so thankful our music has helped others overcome their own struggles.
-          <br><br>
-          From all of us supporting Wal and Dion, welcome to our online family. We cannot thank you enough!</p>
+        <img src="image_8.jpg" alt="" />
+        <p class="about__text">
+          Hi, we're Wal and Dion. A father and son duo act from Fleetwood, UK.
+          We LOVE music and want to share our love with the world during a time
+          when we need to pull together and share our passions. <br /><br />
+          Dion has always followed his dad's singing career very closely and
+          loves joining in when Wal is on stage; but they have never sung as a
+          duo until April 2020. The coronavirus lockdown in the UK impacted a
+          lot of people very hard and Wal and Dion both agreed that their love
+          of music should be shared across the world, so felt it was time to
+          combine their talents.
+          <br /><br />
+          We created the Father and Son Karaoke Kings channel in April 2020, and
+          have posted a new song every day since, for over 350 songs. You can
+          check out our channels on either Youtube , Facebook or Instagram .
+          <br /><br />
+          Despite Dion having disabilities, it has never stopped him doing the
+          things he wants to do in life and his ambition and passion has been an
+          inspiration for children and adults alike. He is extremely grateful to
+          all those he can inspire around the world.
+          <br /><br />
+          Sharing our musical love with the world has helped overcome the daily
+          struggles through the past year and we are so thankful our music has
+          helped others overcome their own struggles.
+          <br /><br />
+          From all of us supporting Wal and Dion, welcome to our online family.
+          We cannot thank you enough!
+        </p>
       </div>
     </section>
     <section id="shop">
       <h2 class="section__title">Shop</h2>
       <div class="shop__container">
         <div class="shop__item">
-          <h6 class="shop__title">Father And Son Lockdown CD
-          </h6>
-          <p class="shop__description">Collection of Wal and Dion's best hits!</p>
-          <a href="https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919" target="_blank"><img src="cd_image.jpg" alt=""></a>
+          <h6 class="shop__title">Father And Son Lockdown CD</h6>
+          <p class="shop__description">
+            Collection of Wal and Dion's best hits!
+          </p>
+          <a
+            href="https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919"
+            target="_blank"
+            ><img src="cd_image.jpg" alt=""
+          /></a>
         </div>
         <div class="shop__item">
-          <h6 class="shop__title">
-            Father And Son Wristbands
-          </h6>
+          <h6 class="shop__title">Father And Son Wristbands</h6>
           <p class="shop__description">Father and Son wristbands description</p>
-          <a href="https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523" target="_blank"><img src="wristband_image.jpg" alt=""></a>
+          <a
+            href="https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523"
+            target="_blank"
+            ><img src="wristband_image.jpg" alt=""
+          /></a>
         </div>
       </div>
     </section>
     <section id="contact">
       <h2 class="section__title">Contact Us</h2>
       <div class="contact__container">
-        <p>Please get in touch, we love hearing from our fans and want to hear from you</p>
+        <p>
+          Please get in touch, we love hearing from our fans and want to hear
+          from you
+        </p>
+
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/fatherandsonkaraoke/"
+              target="_blank"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCmNrYh8NMRZLDDAqVrIWGlA"
+              target="_blank"
+            >
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
+    <footer>
+      <h6 class="copyright">© Copywright Father and Son The Karaoke Kings</h6>
+      <p class="creator">
+        Website design and created by <a href="#">Marc Joyce</a>
+      </p>
+    </footer>
   </body>
 </html>
