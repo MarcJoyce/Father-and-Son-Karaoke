@@ -108,7 +108,7 @@ const updateHeroContainer = () => {
  heroName.innerHTML = videos[0].title;
  heroArtist.innerHTML = videos[0].artist;
  heroDescription.innerHTML = videos[0].description;
- heroLink.href = "https://www.youtube.com/watch?v=" + videos[0].link;
+ heroLink.href = "https://youtu.be/" + videos[0].link;
 
 }
 
