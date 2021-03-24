@@ -99,4 +99,17 @@ const toggleMenu = () => {
   close.classList.toggle("active");
 }
 
+const updateHeroContainer = () => {
+ const heroName = document.querySelector(".hero__name");
+ const heroArtist = document.querySelector(".hero__artist");
+ const heroDescription = document.querySelector(".hero__description__text");
+ const heroLink = document.querySelector(".hero__cta__link");
+  
+ heroName.innerHTML = videos[0].title;
+ heroArtist.innerHTML = videos[0].artist;
+ heroDescription.innerHTML = videos[0].description;
+ heroLink.a = "https://www.youtube.com/watch?v=" + videos[0].link;
+}
+
 loadVideos();
+updateHeroContainer();
