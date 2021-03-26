@@ -386,6 +386,15 @@ section {
   letter-spacing: 1px;
 }
 
+.about__text a {
+  color: #000;
+  font-weight: bolder;
+}
+
+.about__text a:hover {
+  color: #CCC;
+}
+
 /* Shop Section */
 
 .shop__container {
