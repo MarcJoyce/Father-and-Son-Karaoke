@@ -523,7 +523,6 @@ footer {
   }
 
   header img {
-    position: absolute;
     object-position: 40%;
   }
 
@@ -531,7 +530,7 @@ footer {
     height: 20%;
     position: absolute;
     bottom: 0;
-    padding: 0;
+    padding: 5px;
   }
 
   .hero__description__container {
