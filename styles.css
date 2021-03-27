@@ -160,7 +160,7 @@ nav {
 header {
   height: 90vh;
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 10vh;
   overflow: hidden;
   background: #FFF;
@@ -524,8 +524,6 @@ footer {
 
   header img {
     position: absolute;
-    top: 10%;
-    height: 70%;
     object-position: 40%;
   }
 
