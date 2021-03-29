@@ -262,6 +262,10 @@ section {
   letter-spacing: 1px;
 }
 
+#music {
+  padding-top: 100px;
+}
+
 .music__container {
   display: flex;
   justify-content: center;
