@@ -1,24 +1,17 @@
 const videos = [
 {
-  "id" : 17,
+  "id" : 16,
   "title" : "White Wedding",
   "artist" : "Billy Idol",
   "description" : "White Wedding is a song by Billy Idol that was released as the second single from his self-titled studio album in 1982. Although not Idol's highest-charting hit, it is often considered one of his most recognizable songs.",
   "link" : "GrgQPR3u6z4"
 },
   {
-  "id" : 16,
+  "id" : 15,
   "title" : "Boot scootin boogie",
   "artist" : "Brooks and Dunn",
   "description" : "The song's success is credited with having sparked a renewed interest in line dancing throughout the United States.",
   "link" : "vMjHPMZvyfE"
-},
-  {
-  "id" : 15,
-  "title" : "The Irish Rover",
-  "artist" : "The Pogues and The Dubliners",
-  "description" : "The Irish Rover is an Irish folk song about a magnificent though improbable sailing ship that reaches an unfortunate end.",
-  "link" : "Obn7unMR4jw"
 },
   {
   "id" : 14,
@@ -114,7 +107,7 @@ const videos = [
 
 const loadVideos = () => {
   const music__container = document.querySelector(".music__container");
-  for (let item = 0; item < 4; item++) {
+  for (let item = 0; item < 8; item++) {
     const music__box = document.createElement("div");
     music__box.classList.add("music__box");
 
