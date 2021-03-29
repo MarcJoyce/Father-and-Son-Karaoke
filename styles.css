@@ -115,7 +115,7 @@ nav {
 }
 
 .menu__item {
-  color: #ccc;
+  color: #888;
   font-weight: bolder;
   text-transform: uppercase;
   transition: 0.5s all ease;
@@ -155,17 +155,17 @@ nav {
 }
 
 .socials__container i:hover {
-  color: #ccc;
+  color: #888;
   transition: 0.5s all ease;
 }
 
 /* Header Section */
 
 header {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   position: relative;
-  top: 10vh;
+  /* top: 10vh; */
   overflow: hidden;
   background: #FFF;
 }
@@ -199,7 +199,7 @@ header img {
 }
 
 .hero__title {
-  color: #ccc;
+  color: #888;
 }
 
 .hero__description__container {
@@ -244,30 +244,26 @@ header img {
 
 .hero__cta__container a:hover i,
 .hero__cta__container a:hover p {
-  color: #ccc;
+  color: #888;
   transition: 0.5s all ease;
 }
 
 /* Music Section */
 
 section {
-  padding: 50px;
+  padding: 10vh;
   width: 100%;
   min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0;
+  /* margin: 50px 0; */
 }
 .section__title {
   padding-bottom: 10px;
   border-bottom: 1px solid #000;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-#music {
-  padding-top: 100px;
 }
 
 .music__container {
@@ -303,7 +299,7 @@ section {
   color: #000;
   font-weight: bolder;
   padding: 20px;
-  background-color: #ccc;
+  background-color: #888;
   text-align: center;
 }
 
@@ -355,7 +351,7 @@ section {
   font-size: 0.8rem;
   font-weight: bolder;
   border-radius: 8px;
-  background-color: #ccc;
+  background-color: #888;
   padding: 5px;
   text-align: center;
 }
@@ -405,7 +401,7 @@ section {
 }
 
 .about__text a:hover {
-  color: #CCC;
+  color: #888;
 }
 
 /* Shop Section */
@@ -474,7 +470,7 @@ section {
 }
 
 .contact__container ul li:hover a { 
-  color: #CCC;
+  color: #888;
   transition: 0.5s all ease;
 }
 
@@ -538,13 +534,12 @@ footer {
   }
   
   header img {
+    height: 80%;
     object-position: 40%;
   }
 
   .hero__container {
     height: 20%;
-    position: absolute;
-    bottom: 0;
     padding: 5px;
   }
 

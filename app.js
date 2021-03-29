@@ -161,5 +161,26 @@ const updateHeroContainer = () => {
 
 }
 
+const sections = document.querySelectorAll(".section");
+
+document.addEventListener("scroll", () => {
+  let scrollPos = window.scrollY;
+
+  sections.forEach(section => {
+    if (scrollPos >= (section.offsetTop - section.offsetHeight / 2)) {
+      let menuItems = document.querySelectorAll(".menu__item");
+      menuItems.forEach(item => {
+        if (item.hash == "#" + section.id) {
+          item.classList.add("active");
+        } else {
+          item.classList.remove("active");
+        }
+      })
+    }
+  })
+})
+
+
+
 loadVideos();
 updateHeroContainer();
