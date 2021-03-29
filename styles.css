@@ -33,7 +33,7 @@ ul {
 
 nav {
   position: fixed;
-  height: 10%;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -101,6 +101,7 @@ nav {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 900;
+  color: #000;
 }
 
 .full__menu {
@@ -161,10 +162,12 @@ nav {
 /* Header Section */
 
 header {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   position: relative;
+  top: 10vh;
   overflow: hidden;
+  background: #FFF;
 }
 
 header img {
@@ -254,12 +257,17 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 50px 0;
 }
 .section__title {
   padding-bottom: 10px;
   border-bottom: 1px solid #000;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+#music {
+  padding-top: 100px;
 }
 
 .music__container {
@@ -296,6 +304,7 @@ section {
   font-weight: bolder;
   padding: 20px;
   background-color: #ccc;
+  text-align: center;
 }
 
 /* News Section */
@@ -334,6 +343,7 @@ section {
   text-align: center;
   font-size: 0.8rem;
   width: 70%;
+  margin: 0 5px;
 }
 
 .news__cta {
@@ -347,6 +357,7 @@ section {
   border-radius: 8px;
   background-color: #ccc;
   padding: 5px;
+  text-align: center;
 }
 
 /* Gallery Section */
@@ -386,6 +397,15 @@ section {
   margin: 20px;
   font-size: 0.8rem;
   letter-spacing: 1px;
+}
+
+.about__text a {
+  color: #000;
+  font-weight: bolder;
+}
+
+.about__text a:hover {
+  color: #CCC;
 }
 
 /* Shop Section */
@@ -513,10 +533,11 @@ footer {
     display: flex;
   }
 
+  header {
+    margin-bottom: 100px;
+  }
+  
   header img {
-    position: absolute;
-    top: 10%;
-    height: 70%;
     object-position: 40%;
   }
 
@@ -524,7 +545,7 @@ footer {
     height: 20%;
     position: absolute;
     bottom: 0;
-    padding: 0;
+    padding: 5px;
   }
 
   .hero__description__container {
@@ -532,9 +553,13 @@ footer {
   }
 
   .hero__cta__container p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
+  section {
+    padding: 5px;
+  }
+  
   .news__item {
     flex-direction: column;
     justify-content: center;
@@ -555,6 +580,7 @@ footer {
 
   .about__text {
     text-align: center;
+    margin: 0;
   }
 
   .shop__container {

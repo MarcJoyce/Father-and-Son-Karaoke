@@ -1,5 +1,61 @@
 const videos = [
 {
+  "id" : 16,
+  "title" : "White Wedding",
+  "artist" : "Billy Idol",
+  "description" : "White Wedding is a song by Billy Idol that was released as the second single from his self-titled studio album in 1982. Although not Idol's highest-charting hit, it is often considered one of his most recognizable songs.",
+  "link" : "GrgQPR3u6z4"
+},
+  {
+  "id" : 15,
+  "title" : "Boot scootin boogie",
+  "artist" : "Brooks and Dunn",
+  "description" : "The song's success is credited with having sparked a renewed interest in line dancing throughout the United States.",
+  "link" : "vMjHPMZvyfE"
+},
+  {
+  "id" : 14,
+  "title" : "The Irish Rover",
+  "artist" : "The Pogues and The Dubliners ",
+  "description" : "The Irish Rover is an Irish folk song about a magnificent though improbable sailing ship that reaches an unfortunate end. ",
+  "link" : "Obn7unMR4jw"
+},
+{
+  "id" : 13,
+  "title" : "At the Club",
+  "artist" : "The Drifters",
+  "description" : "",
+  "link" : "UX8VEjPMOA8"
+},
+{
+  "id" : 12,
+  "title" : "Forever in Blue Jeans",
+  "artist" : "Neil Diamond",
+  "description" : "Diamond said about the song: the simple things are really the important things",
+  "link" : "qS7hpXphVX0"
+},
+{
+  "id" : 11,
+  "title" : "Sunny Afternoon",
+  "artist" : "The Kinks",
+  "description" : "Its strong music hall flavour and lyrical focus was part of a stylistic departure for the band, which had risen to fame in 1964–65 with a series of hard-driving, power-chord rock hits.",
+  "link" : "5m92XqS8-f0"
+},
+{
+  "id" : 10,
+  "title" : "Happy Together",
+  "artist" : "The Turtles",
+  "description" : "Released as a single in February 1967, the song knocked the Beatles Penny Lane out of the number one slot on the US Billboard Hot 100 and remained atop the chart for three weeks.",
+  "link" : "oaOg0PurM0A"
+},   
+{
+  "id" : 9,
+  "title" : "If I can dream",
+  "artist" : "Elvis Presley",
+  "description" : "If I Can Dream is a song made famous by Elvis Presley and notable for its direct quotations of Martin Luther King Jr.'s 1963 I Have a Dream speech",
+  "link" : "MOjHp2kQwaw"
+},
+{
   "id" : 1,
   "title" : "Walk of Life",
   "artist" : "Dire Straits",
@@ -51,7 +107,7 @@ const videos = [
 
 const loadVideos = () => {
   const music__container = document.querySelector(".music__container");
-  for (let item = 0; item < 4; item++) {
+  for (let item = 0; item < 8; item++) {
     const music__box = document.createElement("div");
     music__box.classList.add("music__box");
 
@@ -92,4 +148,18 @@ const toggleMenu = () => {
   close.classList.toggle("active");
 }
 
+const updateHeroContainer = () => {
+ const heroName = document.querySelector(".hero__name");
+ const heroArtist = document.querySelector(".hero__artist");
+ const heroDescription = document.querySelector(".hero__description__text");
+ const heroLink = document.querySelector(".hero__cta__link");
+  
+ heroName.innerHTML = videos[0].title;
+ heroArtist.innerHTML = videos[0].artist;
+ heroDescription.innerHTML = videos[0].description;
+ heroLink.href = "https://youtu.be/" + videos[0].link;
+
+}
+
 loadVideos();
+updateHeroContainer();
