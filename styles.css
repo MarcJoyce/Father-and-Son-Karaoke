@@ -121,6 +121,10 @@ nav {
   font-size: 1rem;
 }
 
+.responsive__menu .menu__item {
+  color: #000;
+}
+
 .menu__item.active {
   color: #000;
 }
