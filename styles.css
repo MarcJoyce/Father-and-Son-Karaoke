@@ -160,7 +160,7 @@ nav {
 header {
   height: 90vh;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 10vh;
   overflow: hidden;
   background: #FFF;
@@ -253,6 +253,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 50px 0;
 }
 .section__title {
   padding-bottom: 10px;
@@ -295,6 +296,7 @@ section {
   font-weight: bolder;
   padding: 20px;
   background-color: #ccc;
+  text-align: center;
 }
 
 /* News Section */
@@ -522,6 +524,10 @@ footer {
     display: flex;
   }
 
+  header {
+    margin-bottom: 100px;
+  }
+  
   header img {
     object-position: 40%;
   }
@@ -538,9 +544,13 @@ footer {
   }
 
   .hero__cta__container p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
+  section {
+    padding: 5px;
+  }
+  
   .news__item {
     flex-direction: column;
     justify-content: center;
@@ -561,6 +571,7 @@ footer {
 
   .about__text {
     text-align: center;
+    margin: 0;
   }
 
   .shop__container {
