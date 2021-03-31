@@ -1,5 +1,26 @@
 const videos = [
 {
+  "id" : 19,
+  "title" : "Mama Tried",
+  "artist" : "Merle Haggard & The Strangers",
+  "description" : "In Mama Tried, Haggard focuses on the pain and suffering he caused his own mother by being incarcerated in 1957 in San Quentin.",
+  "link" : "yc0DvTShwS0"
+},
+{
+  "id" : 18,
+  "title" : "Girl of my Best Friend",
+  "artist" : "Elvis Presley",
+  "description" : "",
+  "link" : "v9HG-tC6y50"
+},
+{
+  "id" : 17,
+  "title" : "Little Deuce Coupe",
+  "artist" : "The Beach Boys",
+  "description" : "",
+  "link" : "ZkdTI10EfBI"
+},
+{
   "id" : 16,
   "title" : "White Wedding",
   "artist" : "Billy Idol",
