@@ -1,5 +1,33 @@
 const videos = [
 {
+  "id" : 24,
+  "title" : "Rhinestone Cowboy",
+  "artist" : "Glen Campbell",
+  "description" : "Rhinestone Cowboy is a song written by Larry Weiss and most famously recorded by American country music singer Glen Campbell. When released in 1975, it enjoyed huge popularity with both country and pop audiences",
+  "link" : "zy4zrl6FJ0"
+},
+{
+  "id" : 23,
+  "title" : "Help me make it through the night",
+  "artist" : "Kris Kristofferson",
+  "description" : "",
+  "link" : "b0dAGQJNenY"
+},
+{
+  "id" : 22,
+  "title" : "Wonderful Tonight",
+  "artist" : "Eric Clapton",
+  "description" : "",
+  "link" : "sEVY-unOC7k"
+},
+{
+  "id" : 21,
+  "title" : "Up on the Roof",
+  "artist" : "The Drifters",
+  "description" : "",
+  "link" : "AHJGmKum4BU"
+},
+{
   "id" : 20,
   "title" : "Tiger Feet",
   "artist" : "Mud",
