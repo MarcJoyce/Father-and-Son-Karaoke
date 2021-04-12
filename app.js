@@ -1,4 +1,11 @@
 const videos = [
+  {
+    "id" : 28,
+    "title": "Crazy Little Thing called Love",
+    "artist": "Queen",
+    "description": "Having composed Crazy Little Thing Called Love on guitar, Mercury played rhythm guitar while performing the song live, which was the first time he played guitar in concert with Queen",
+    "link": "1-Hi17dEpA4"
+  },
 {
   "id" : 27,
   "title" : "Hillbilly Rock",
