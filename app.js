@@ -1,4 +1,10 @@
 const videos = [
+  { "id" : 29,
+    "title" : "Love is in the Air",
+    "artist" : "John Paul Young", 
+    "description" : "Love Is in the Air is a 1977 disco song sung by John Paul Young and became a worldwide hit in 1978. At the Australian 1978 King of Pop Awards the song won Most Popular Australian Single",
+    "link" : "3AaWcHduYh4"
+  },
   {
     "id" : 28,
     "title": "Crazy Little Thing called Love",
