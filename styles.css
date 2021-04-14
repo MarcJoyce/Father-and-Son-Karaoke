@@ -6,11 +6,13 @@
 --lm-text-main-color: #000;
 --lm-background-main-color: #FFF;
 --lm-heading-secondary-color: rgba(0, 0, 0, 0.5);
+--lm-section-title-border: rgba(0, 0, 0, 0.1);
 
 --dm-heading-main-color: #FFF;
 --dm-text-main-color: #FFF;
 --dm-background-main-color: #111;
 --dm-heading-secondary-color: rgba(255, 255, 255, 0.5);
+--dm-section-title-border: rgba(255, 255, 255, 0.1);
 }
 
 * {
@@ -185,6 +187,16 @@ section {
   align-items: center;
 }
 
+.section__title {
+  font-size: clamp(1.5rem, 2.25vmin, 3.5rem);
+  text-transform: uppercase;
+  color: var(--lm-heading-main-color);
+  font-weight: 900;
+  padding: 0 0 25px 0;
+  border-bottom: 1px solid var(--lm-section-title-border);
+  margin: 0 0 50px 0;
+}
+
 /* Hero Section */
 
 #home {
@@ -253,6 +265,38 @@ section {
 
 /* Music Section */
 
+.music__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.music__box {
+  max-width: 300px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music__cta {
+  margin: 50px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--lm-heading-main-color);
+  color: var(--lm-background-main-color);
+  white-space: nowrap;
+}
+
+.music__title {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
@@ -275,7 +319,8 @@ body.dark {
 }
 
 body.dark .heading, 
-body.dark .sub__heading {
+body.dark .sub__heading,
+body.dark .section__title {
   color: var(--dm-heading-main-color);
 }
 
@@ -302,4 +347,16 @@ body.dark .socials__container ul li:hover i,
 body.dark .hero__cta__container a:hover i,
 body.dark .hero__cta__container a:hover p {
   color: var(--dm-heading-secondary-color);
+}
+
+body.dark .music__cta {
+  color: var(--dm-background-main-color);
+}
+
+body.dark .music__cta {
+  background-color: var(--dm-heading-main-color);
+}
+
+body.dark .section__title {
+  border-bottom: 1px solid var(--dm-section-title-border);
 }

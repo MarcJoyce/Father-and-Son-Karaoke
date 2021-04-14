@@ -248,10 +248,12 @@ const loadVideos = () => {
 
     const music__title = document.createElement("h6");
     music__title.classList.add("music__title");
+    music__title.classList.add("heading");
     music__title.innerHTML = videos[item].title;
 
     const music__artist = document.createElement("p");
     music__artist.classList.add("music__artist");
+    music__artist.classList.add("sub__heading");
     music__artist.innerHTML = videos[item].artist;
 
     const music__video = document.createElement("iframe");
@@ -330,8 +332,6 @@ document.addEventListener("scroll", () => {
     }
   })
 })
-
-
 
 loadVideos();
 loadImages();
