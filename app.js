@@ -1,4 +1,5 @@
-const videos = 
+const videos =
+[ 
   {
     id: 30,
     title: "Treat me Nice",
