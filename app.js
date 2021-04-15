@@ -423,9 +423,14 @@ const sections = document.querySelectorAll(".section");
 
 document.addEventListener("scroll", () => {
   let scrollPos = window.scrollY;
-
+  console.log("----------------------");
+console.log(scrollPos);
   sections.forEach(section => {
+    console.log(section.offsetTop + section.offsetHeight / 2);
     if (scrollPos >= (section.offsetTop - section.offsetHeight / 2)) {
+      
+      
+      
       let menuItems = document.querySelectorAll(".menu__item");
       menuItems.forEach(item => {
         if (item.hash == "#" + section.id) {
