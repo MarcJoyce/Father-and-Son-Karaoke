@@ -240,6 +240,25 @@ const images = [
   },
 ]
 
+const news = [
+  {
+    title: "Test News 1",
+    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
+    link: "",
+  },
+  {
+    title: "Test News 2",
+    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
+    link: "",
+  },
+  {
+    title: "Test News 3",
+    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
+    link: "",
+  },
+]
+
+
 const loadVideos = () => {
   const music__container = document.querySelector(".music__container");
   for (let item = 0; item < 8; item++) {
@@ -283,6 +302,31 @@ const loadImages = () => {
 
     galleryContainer.appendChild(img);
   })
+}
+
+const loadNews = () => {
+  const newsContainer = document.querySelector(".news__container");
+
+  for (let i = 0; i < (news.length <= 3 ? news.length : 3); i++) {
+    const newsItem = document.createElement("div");
+    const newsHeadline = document.createElement("h6");
+    const newsText = document.createElement("p");
+    const newsLink = document.createElement("a");
+
+    newsHeadline.classList.add("sub__heading");
+    newsHeadline.innerHTML = news[i].title;
+  
+    newsText.classList.add("text");
+    newsText.innerHTML = news[i].text;
+
+    newsLink.setAttribute('href', news[i].link);
+    newsLink.innerHTML = "Read more";
+
+    newsItem.appendChild(newsHeadline);
+    newsItem.appendChild(newsText);
+    newsItem.appendChild(newsLink);
+    newsContainer.appendChild(newsItem);
+  }
 }
 
 const toggleMenu = () => {
@@ -335,4 +379,5 @@ document.addEventListener("scroll", () => {
 
 loadVideos();
 loadImages();
+loadNews();
 updateHeroContainer();
