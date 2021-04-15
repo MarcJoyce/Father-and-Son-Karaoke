@@ -8,18 +8,18 @@ const videos =
       "Treat Me Nice is a song recorded by Elvis Presley. The song was included in the musical revue Smokey Joe's Cafe. The song was featured prominently in the film Jailhouse Rock.",
     link: "Q4ZTJnTj-PY",
   },
-   { "id" : 29,
-    "title" : "Love is in the Air",
-    "artist" : "John Paul Young", 
-    "description" : "Love Is in the Air is a 1977 disco song sung by John Paul Young and became a worldwide hit in 1978. At the Australian 1978 King of Pop Awards the song won Most Popular Australian Single",
-    "link" : "3AaWcHduYh4"
+   { id : 29,
+    title : "Love is in the Air",
+    artist : "John Paul Young", 
+    description : "Love Is in the Air is a 1977 disco song sung by John Paul Young and became a worldwide hit in 1978. At the Australian 1978 King of Pop Awards the song won Most Popular Australian Single",
+    link : "3AaWcHduYh4"
   },
   {
-    "id" : 28,
-    "title": "Crazy Little Thing called Love",
-    "artist": "Queen",
-    "description": "Having composed Crazy Little Thing Called Love on guitar, Mercury played rhythm guitar while performing the song live, which was the first time he played guitar in concert with Queen",
-    "link": "1-Hi17dEpA4"
+    id : 28,
+    title: "Crazy Little Thing called Love",
+    artist: "Queen",
+    description: "Having composed Crazy Little Thing Called Love on guitar, Mercury played rhythm guitar while performing the song live, which was the first time he played guitar in concert with Queen",
+    link: "1-Hi17dEpA4"
   },
   {
     id: 27,

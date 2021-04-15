@@ -479,6 +479,7 @@ footer p a {
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
+  /* Header */ 
   .menu__container {
     max-width: 80%;
   }
@@ -487,6 +488,10 @@ footer p a {
   }
   .toggle__menu {
     display: block;
+  }
+  /* Hero */
+  .hero__description__text {
+    display: none;
   }
 }
 
