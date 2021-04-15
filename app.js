@@ -1,5 +1,5 @@
-const videos = 
-      [
+const videos =
+[ 
   {
     id: 30,
     title: "Treat me Nice",
@@ -254,6 +254,41 @@ const images = [
   },
 ]
 
+const news = [
+  {
+    title: "Test News 1",
+    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
+    link: "",
+  },
+  {
+    title: "Test News 2",
+    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
+    link: "",
+  },
+  {
+    title: "Test News 3",
+    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
+    link: "",
+  },
+]
+
+const shop = [
+  {
+    title: "Lockdown 2020 Father and Son",
+    description: "Golden Oldies Volume 1",
+    link: "https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919",
+    image: "cd_image.jpg",
+    alt: "Father and Son CD"
+  },
+  {
+    title: "Wristbands",
+    description: "Father & Son Karaoke Kings Wristbands",
+    link: "https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523",
+    image: "wristband_image.jpg",
+    alt: "Father and Son Wristbands"
+  },
+]
+
 const loadVideos = () => {
   const music__container = document.querySelector(".music__container");
   for (let item = 0; item < 8; item++) {
@@ -299,6 +334,62 @@ const loadImages = () => {
   })
 }
 
+const loadNews = () => {
+  const newsContainer = document.querySelector(".news__container");
+
+  for (let i = 0; i < (news.length <= 3 ? news.length : 3); i++) {
+    const newsItem = document.createElement("div");
+    const newsHeadline = document.createElement("h6");
+    const newsText = document.createElement("p");
+    const newsLink = document.createElement("a");
+
+    newsHeadline.classList.add("sub__heading");
+    newsHeadline.innerHTML = news[i].title;
+  
+    newsText.classList.add("text");
+    newsText.innerHTML = news[i].text;
+
+    newsLink.setAttribute('href', news[i].link);
+    newsLink.innerHTML = "Read more";
+
+    newsItem.appendChild(newsHeadline);
+    newsItem.appendChild(newsText);
+    newsItem.appendChild(newsLink);
+    newsContainer.appendChild(newsItem);
+  }
+}
+
+const loadShop = () => {
+const shopContainer = document.querySelector(".shop__container");
+shop.forEach((shop) => {
+  const item = document.createElement("div");
+  const title = document.createElement("h6");
+  const description = document.createElement("p");
+  const link = document.createElement("a");
+  const image = document.createElement("img");
+
+  title.innerHTML = shop.title;
+  title.classList.add("sub__heading");
+
+  description.innerHTML = shop.description;
+  description.classList.add("text");
+
+  link.setAttribute("href", shop.link);
+  link.setAttribute("target", "_blank");
+
+  image.setAttribute("src", shop.image);
+  image.setAttribute("alt", shop.alt);
+
+  link.appendChild(image);
+
+  item.appendChild(title);
+  item.appendChild(description);
+  item.appendChild(link);
+
+  shopContainer.appendChild(item);
+})
+}
+
 const toggleMenu = () => {
   const menuButton = document.querySelector(".toggle__menu");
   const bars = document.querySelector(".fa-bars");
@@ -332,9 +423,14 @@ const sections = document.querySelectorAll(".section");
 
 document.addEventListener("scroll", () => {
   let scrollPos = window.scrollY;
-
+  console.log("----------------------");
+console.log(scrollPos);
   sections.forEach(section => {
+    console.log(section.offsetTop + section.offsetHeight / 2);
     if (scrollPos >= (section.offsetTop - section.offsetHeight / 2)) {
+      
+      
+      
       let menuItems = document.querySelectorAll(".menu__item");
       menuItems.forEach(item => {
         if (item.hash == "#" + section.id) {
@@ -349,4 +445,6 @@ document.addEventListener("scroll", () => {
 
 loadVideos();
 loadImages();
+loadNews();
+loadShop();
 updateHeroContainer();
