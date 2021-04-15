@@ -369,7 +369,7 @@ shop.forEach((shop) => {
   const image = document.createElement("img");
 
   title.innerHTML = shop.title;
-  title.classList.add("heading");
+  title.classList.add("sub__heading");
 
   description.innerHTML = shop.description;
   description.classList.add("text");
