@@ -332,6 +332,25 @@ section {
     white-space: nowrap;
   }
 
+  /* Gallery Section */
+
+  .gallery__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .gallery__container img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  /* About us Section */
 
 /* Media Queries */
 
@@ -399,3 +418,4 @@ body.dark .section__title,
 body.dark .news__item {
   border-bottom: 1px solid var(--dm-section-title-border);
 }
+
