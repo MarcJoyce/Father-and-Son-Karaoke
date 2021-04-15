@@ -272,6 +272,22 @@ const news = [
   },
 ]
 
+const shop = [
+  {
+    title: "Lockdown 2020 Father and Son",
+    description: "Golden Oldies Volume 1",
+    link: "https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919",
+    image: "cd_image.jpg",
+    alt: "Father and Son CD"
+  },
+  {
+    title: "Wristbands",
+    description: "Father & Son Karaoke Kings Wristbands",
+    link: "https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523",
+    image: "wristband_image.jpg",
+    alt: "Father and Son Wristbands"
+  },
+]
 
 const loadVideos = () => {
   const music__container = document.querySelector(".music__container");
@@ -343,6 +359,37 @@ const loadNews = () => {
   }
 }
 
+const loadShop = () => {
+const shopContainer = document.querySelector(".shop__container");
+shop.forEach((shop) => {
+  const item = document.createElement("div");
+  const title = document.createElement("h6");
+  const description = document.createElement("p");
+  const link = document.createElement("a");
+  const image = document.createElement("img");
+
+  title.innerHTML = shop.title;
+  title.classList.add("heading");
+
+  description.innerHTML = shop.description;
+  description.classList.add("text");
+
+  link.setAttribute("href", shop.link);
+  link.setAttribute("target", "_blank");
+
+  image.setAttribute("src", shop.image);
+  image.setAttribute("alt", shop.alt);
+
+  link.appendChild(image);
+
+  item.appendChild(title);
+  item.appendChild(description);
+  item.appendChild(link);
+
+  shopContainer.appendChild(item);
+})
+}
+
 const toggleMenu = () => {
   const menuButton = document.querySelector(".toggle__menu");
   const bars = document.querySelector(".fa-bars");
@@ -394,4 +441,5 @@ document.addEventListener("scroll", () => {
 loadVideos();
 loadImages();
 loadNews();
+loadShop();
 updateHeroContainer();
