@@ -1,6 +1,27 @@
 const videos =
 [ 
   {
+    id: 33,
+    title: "I only want to be with you",
+    artist: "Bay City Rollers",
+    descrirption: "Three remakes of the song have been UK chart hits, the first two by the Bay City Rollers (1976) and The Tourists (1979) matching the number 4 peak of the Dusty Springfield original, while the 1989 remake by Samantha Fox peaked at number 16",
+    link: "CQx60GNuK_k"
+  },
+    {
+    id: 32,
+    title: "Sukiyaki",
+    artist: "Kyu Sakamoto",
+    descrirption: "",
+    link: "7i2gY4nuMgY"
+  },
+  {
+    id: 31,
+    title: "Love you forever and ever",
+    artist: "Randy Travis",
+    descrirption: "",
+    link: "N3V2PsqgmJ0"
+  },
+  {
     id: 30,
     title: "Treat me Nice",
     artist: "Elvis Presley",
