@@ -196,6 +196,10 @@ nav {
   margin: 1% 0;
 }
 
+.dark__mode {
+  cursor: pointer;
+}
+
 /* Section styles */
 
 section {
@@ -330,6 +334,7 @@ section {
 }
 
 .news__container div {
+  max-width: 100%;
   display: flex;
   align-items: center;
   padding: 0 0 10px 0;
@@ -343,6 +348,7 @@ section {
 
 .news__container p {
   margin: 0 25px;
+  white-space: normal;
 }
 
 .news__container a {
@@ -479,7 +485,14 @@ footer p a {
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
-  /* Header */ 
+  
+/* All */
+  section {
+    padding: 50px 20px;
+    margin: 5px 0;
+  }
+
+  /* Header */
   .menu__container {
     max-width: 80%;
   }
@@ -489,9 +502,66 @@ footer p a {
   .toggle__menu {
     display: block;
   }
+  
   /* Hero */
-  .hero__description__text {
-    display: none;
+
+  .hero__container {
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__description__container {
+    max-width: 100%;
+    margin: 25px 0;
+  }
+
+  .hero__description__container p {
+    text-align: center;
+  }
+
+  /* Music */
+
+  /* News */
+  .news__container div {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 200px;
+  }
+
+  .news__container p {
+    text-align: center;
+  }
+
+  .news__container a {
+    padding: 8px;
+  }
+
+  /* Gallery */
+
+  /* About */
+
+  .about__container {
+    flex-direction: column;
+  }
+
+  .about__container img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about__container p {
+    margin: 20px 0 0 0;
+  }
+  
+  /* Shop */
+
+  /* Contact */
+  #contact p {
+    white-space: normal;
+    text-align: center;
   }
 }
 
@@ -550,4 +620,5 @@ body.dark .news__container div {
 
 body.dark .dark__mode__toggle {
   color: var(--dm-heading-main-color);
+}
 }
