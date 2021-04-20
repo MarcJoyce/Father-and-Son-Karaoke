@@ -72,7 +72,7 @@ ul {
 }
 
 .text {
-  font-size: clamp(0.8rem, 1.25vmin, 1.5rem);
+  font-size: clamp(0.85rem, 1.25vmin, 1.5rem);
   color: var(--lm-text-main-color);
   font-weight: 400;
   white-space: nowrap;
@@ -334,9 +334,10 @@ section {
 }
 
 .news__container div {
-  max-width: 100%;
+  min-width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 0 10px 0;
   margin: 10px 0;
   border-bottom: 1px solid var(--lm-section-title-border);
@@ -346,7 +347,12 @@ section {
   border-bottom: none;
 }
 
+.news__container h6 {
+  width: 20%;
+}
+
 .news__container p {
+  width: 70%;
   margin: 0 25px;
   white-space: normal;
 }
@@ -531,7 +537,9 @@ footer p a {
     min-height: 200px;
   }
 
+  .news__container h6,
   .news__container p {
+    width: 100%;
     text-align: center;
   }
 
