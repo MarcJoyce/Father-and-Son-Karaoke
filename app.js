@@ -305,7 +305,7 @@ const shop = [
     title: "Lockdown 2020 Father and Son",
     description: "Golden Oldies Volume 1",
     link: "hhttps://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1-/114754445030",
-    image: "/assets/cd_image.jpg",
+    image: "https://i.ebayimg.com/images/g/sJwAAOSwDl5gaz2d/s-l1600.jpg",
     image2: "/assets/cd_image_back.jpg",
     alt: "Father and Son CD"
   },
@@ -313,7 +313,7 @@ const shop = [
     title: "Father and Son CD 2",
     description: "Golden Oldies Volume 2",
     link: "https://www.ebay.co.uk/itm/Father-And-Son-CD-2/114750426515",
-    image: "/assets/cd_image_2.jpg",
+    image: "https://i.ebayimg.com/images/g/z14AAOSw2INgZuei/s-l1600.jpg",
     image2: "/assets/cd_image_2_back.jpg",
     alt: "Father and Son CD - 2"
   },
@@ -342,8 +342,8 @@ const loadVideos = () => {
     music__video.style.width = "280px";
     music__video.style.height = "300px";
     music__video.setAttribute("frameborder", "0");
-    music__video.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
-    music__video.setAttribute("allowfullscreen", "1");
+    music__video.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    music__video.setAttribute("loading", "lazy");
 
     music__box.appendChild(music__title);
     music__box.appendChild(music__artist);
@@ -359,6 +359,7 @@ const loadImages = () => {
     const img = document.createElement("img");
     img.setAttribute('src', image.link);
     img.setAttribute('alt', "Image of the Father and Son Karaoke Kings team");
+    img.setAttribute('loading', "lazy");
 
     galleryContainer.appendChild(img);
   })
@@ -380,7 +381,7 @@ const loadNews = () => {
     newsText.innerHTML = news[i].text;
 
     newsLink.setAttribute('href', news[i].link);
-    newsLink.innerHTML = "Read more";
+    newsLink.innerHTML = "Click to read more";
 
     newsItem.appendChild(newsHeadline);
     newsItem.appendChild(newsText);
@@ -409,6 +410,7 @@ shop.forEach((shop) => {
 
   image.setAttribute("src", shop.image);
   image.setAttribute("alt", shop.alt);
+  image.setAttribute("loading", "lazy");
 
   link.appendChild(image);
 
