@@ -1,10 +1,17 @@
 const videos =
 [ 
   {
+    id: 34,
+    title: "You got it",
+    artist: "Roy Orbison",
+    description: "You Got It is a song from Roy Orbison's twenty-second studio album, Mystery Girl (1989). The song was released posthumously in January 1989 with The Only One as the B-side, and according to the Official Roy Orbison Discography by Orbison researcher Marcel Riesco, released again with Crying shortly thereafter.",
+    link: "Oq2HPVdxWQ4"
+  },
+  {
     id: 33,
     title: "I only want to be with you",
     artist: "Bay City Rollers",
-    description: "Three remakes of the song have been UK chart hits, the first two by the Bay City Rollers (1976) and The Tourists (1979) matching the number 4 peak of the Dusty Springfield original, while the 1989 remake by Samantha Fox peaked at number 16",
+    description: "Three remakes of the song have been UK chart hits, the first two by the Bay City Rollers (1976) and The Tourists (1979) matching the number 4 peak of the Dusty Springfield original, while the 1989 remake by Samantha Fox peaked at number 16.",
     link: "CQx60GNuK_k"
   },
     {
@@ -239,57 +246,57 @@ const videos =
 const images = [
   {
     id: 1,
-    link: "./image_1.jpg",
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c0.0.206.206a/p206x206/94612991_112338373787733_8120144416259178496_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=DkpjQHnnDLYAX9ICczC&_nc_ht=scontent.flba3-1.fna&tp=27&oh=266a9a2052702861544c048803576885&oe=60A52948",
   },
   {
     id: 2,
-    link: "./image_2.jpg",
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c0.0.206.206a/p206x206/94780057_115131926841711_6672786088714567680_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=MutUDSxIoA0AX_TyNN_&_nc_ht=scontent.flba3-1.fna&tp=27&oh=6e82be981e95dd305ba2aca2414d9cf4&oe=60A46BC9",
   },
   {
     id: 3,
-    link: "./image_3.jpg",
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c59.0.206.206a/p206x206/106494896_145449000476670_5672627025832588491_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=3tLc-sA9vTkAX9-1zbU&_nc_ht=scontent.flba3-1.fna&tp=27&oh=181787eb905351488f2d1788b6619ccb&oe=60A590B8",
   },
   {
     id: 4,
-    link: "./image_4.jpg",
+    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-0/c69.0.206.206a/p206x206/119000154_168807974807439_1462339608267949082_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=QhJbq5qOzSQAX95AqD3&_nc_ht=scontent.flba3-2.fna&tp=27&oh=4e0f75d34413cf0bff260f1b9e1fb8df&oe=60A60A26",
   },
   {
     id: 5,
-    link: "./image_5.jpg",
+    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-0/c0.24.206.206a/p206x206/119088590_168809491473954_2531834206782853717_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=e3f864&_nc_ohc=6PMl-2woK_sAX8S0GUK&_nc_ht=scontent.flba3-2.fna&tp=27&oh=837b0b1897b0b69013e63f065300ae8d&oe=60A33C26",
   },
   {
     id: 6,
-    link: "./image_6.jpg",
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c0.5.206.206a/p206x206/119002397_168810621473841_4938151856468770837_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=e3f864&_nc_ohc=MUY_nOGgNjkAX93vxeY&_nc_ht=scontent.flba3-1.fna&tp=27&oh=705414eebaf9ec9b90ceb6de3c07f459&oe=60A58BB1",
   },
   {
     id: 7,
-    link: "./image_7.jpg",
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/p206x206/120925102_176722584015978_6227394193443261340_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=m-VWbaz7uZAAX9IxPaZ&_nc_ht=scontent.flba3-1.fna&tp=6&oh=106ea391fe7a44a6fd959c341c56ab5d&oe=60A5787A",
   },
   {
     id: 8,
-    link: "./image_8.jpg",
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/120906719_176721797349390_1177484749399556956_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=973b4a&_nc_ohc=IOTItUwSpEIAX-XMcAV&_nc_ht=scontent.flba3-1.fna&oh=bc4ab68e85d6032b0d467f6cfefd7231&oe=60A3DE09",
   },
   {
     id: 9,
-    link: "./hero_image.jpg",
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c21.0.206.206a/p206x206/156957271_259743359047233_4134266373333672214_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=4ObWP-ErJXwAX85JwkO&_nc_ht=scontent.flba3-1.fna&tp=27&oh=774e280be98fbc97c906fa2357f2b145&oe=60A44C77",
   },
 ]
 
 const news = [
   {
-    title: "Test News 1",
-    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
-    link: "",
+    title: "CD Volume 2",
+    text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
-    title: "Test News 2",
-    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
-    link: "",
+    title: "Tupelo Tuesday",
+    text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/292022332486002",
   },
   {
-    title: "Test News 3",
-    text: "This is text which describes the latest news. Anything can go here, but best to limit to brief eye-catching information",
-    link: "",
+    title: "1st Anniversary Live Show",
+    text: "Not long to go now until our live anniversary show, make sure to join us 24th April 2021 19:30 GMT",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/291392872548948",
   },
 ]
 
@@ -297,16 +304,18 @@ const shop = [
   {
     title: "Lockdown 2020 Father and Son",
     description: "Golden Oldies Volume 1",
-    link: "https://www.ebay.co.uk/itm/Father-And-Son-Lockdown-2020-cd/114702399919",
-    image: "cd_image.jpg",
+    link: "hhttps://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1-/114754445030",
+    image: "/assets/cd_image.jpg",
+    image2: "/assets/cd_image_back.jpg",
     alt: "Father and Son CD"
   },
   {
-    title: "Wristbands",
-    description: "Father & Son Karaoke Kings Wristbands",
-    link: "https://www.ebay.co.uk/itm/Father-Son-Wristbands/114297559523",
-    image: "wristband_image.jpg",
-    alt: "Father and Son Wristbands"
+    title: "Father and Son CD 2",
+    description: "Golden Oldies Volume 2",
+    link: "https://www.ebay.co.uk/itm/Father-And-Son-CD-2/114750426515",
+    image: "/assets/cd_image_2.jpg",
+    image2: "/assets/cd_image_2_back.jpg",
+    alt: "Father and Son CD - 2"
   },
 ]
 
