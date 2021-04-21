@@ -15,6 +15,13 @@ const videos =
     link: "09HQ8jbBM_Q"
   },
   {
+    id: 35,
+    title: "Promised Land",
+    artist: "Elvis Presley",
+    description: "Promised Land is the twenty-first studio album by American singer and musician Elvis Presley, released by RCA Records on January 8, 1975. It was recorded in December 1973 at Stax Records studios in Memphis and released on Presley's 40th birthday in January, 1975",
+    link: "09HQ8jbBM_Q"
+  },
+  {
     id: 34,
     title: "You got it",
     artist: "Roy Orbison",
@@ -339,7 +346,7 @@ const shop = [
   {
     title: "Lockdown 2020 Father and Son",
     description: "Golden Oldies Volume 1",
-    link: "hhttps://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1-/114754445030",
+    link: "https://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1-/114754445030",
     image: "https://i.ebayimg.com/images/g/sJwAAOSwDl5gaz2d/s-l1600.jpg",
     image2: "/assets/cd_image_back.jpg",
     alt: "Father and Son CD"
