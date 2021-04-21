@@ -1,12 +1,26 @@
 const videos =
-[ 
+[
+  {
+    id: 36,
+    title: "A thing called love",
+    artist: "Johnny Cash",
+    description: "A Thing Called Love is the 39th overall album by country singer Johnny Cash, released on Columbia Records in 1972 (see 1972 in music). The title song, written by Jerry Reed, was released successfully as a single, reaching No. 2 on the country charts",
+    link: "rgAoIVcbvu4"
+  },
+  {
+    id: 35,
+    title: "Promised Land",
+    artist: "Elvis Presley",
+    description: "",
+    link: "09HQ8jbBM_Q"
+  },
   {
     id: 34,
     title: "You got it",
     artist: "Roy Orbison",
     description: "You Got It is a song from Roy Orbison's twenty-second studio album, Mystery Girl (1989). The song was released posthumously in January 1989 with The Only One as the B-side, and according to the Official Roy Orbison Discography by Orbison researcher Marcel Riesco, released again with Crying shortly thereafter.",
     link: "Oq2HPVdxWQ4"
-  },
+  }, 
   {
     id: 33,
     title: "I only want to be with you",
@@ -455,14 +469,8 @@ const sections = document.querySelectorAll(".section");
 
 document.addEventListener("scroll", () => {
   let scrollPos = window.scrollY;
-  console.log("----------------------");
-console.log(scrollPos);
   sections.forEach(section => {
-    console.log(section.offsetTop + section.offsetHeight / 2);
     if (scrollPos >= (section.offsetTop - section.offsetHeight / 2)) {
-      
-      
-      
       let menuItems = document.querySelectorAll(".menu__item");
       menuItems.forEach(item => {
         if (item.hash == "#" + section.id) {
@@ -475,8 +483,8 @@ console.log(scrollPos);
   })
 })
 
-loadVideos();
-loadImages();
-loadNews();
-loadShop();
-updateHeroContainer();
+  loadVideos();
+  loadImages();
+  loadNews();
+  loadShop();
+  updateHeroContainer();
