@@ -363,7 +363,7 @@ const shop = [
 
 const loadVideos = () => {
   const music__container = document.querySelector(".music__container");
-  for (let item = 0; item < 8; item++) {
+  for (let item = 0; item < 4; item++) {
     const music__box = document.createElement("div");
     music__box.classList.add("music__box");
 
