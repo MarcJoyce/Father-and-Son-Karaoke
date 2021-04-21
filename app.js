@@ -301,6 +301,22 @@ const images = [
     id: 9,
     link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c21.0.206.206a/p206x206/156957271_259743359047233_4134266373333672214_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=4ObWP-ErJXwAX85JwkO&_nc_ht=scontent.flba3-1.fna&tp=27&oh=774e280be98fbc97c906fa2357f2b145&oe=60A44C77",
   },
+  {
+    id: 10,
+    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/176057645_291392799215622_6655383617501137607_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=QkfxHZvKAtIAX_kdaYX&_nc_ht=scontent.flba3-2.fna&oh=42e237317dad40c5c20fcc514c29b1f3&oe=60A74D4B",
+  },
+  {
+    id: 11,
+    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/150763028_248883926799843_641180579436539721_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=b8EHAZ77bMsAX-CZcae&_nc_ht=scontent.flba3-2.fna&oh=0e81b3e65aeb7ce96e7599c840c495b7&oe=60A774D5"
+  },
+  {
+    id : 12,
+    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/150519774_248883900133179_1488005787603273318_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=dm-Q-onzcJMAX_qa2kF&_nc_ht=scontent.flba3-1.fna&oh=3adc60299b7570665f5ead0c7a3360e1&oe=60A49938"
+},
+{
+  id: 13,
+  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/120197611_173952274293009_5220800774652290452_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=BYs_m4sqJuEAX-DQOtc&_nc_ht=scontent.flba3-1.fna&oh=dcd3cde040d4b9246a4f82ae163b7246&oe=60A79704",
+},
 ]
 
 const news = [
@@ -310,7 +326,12 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
-    title: "Tupelo Tuesday",
+    title: "Western Wednesday. A thing called love.",
+    text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/292654029089499",
+  },
+  {
+    title: "Tupelo Tuesday. Promised Land.",
     text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/292022332486002",
   },
