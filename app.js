@@ -416,6 +416,8 @@ const loadNews = () => {
     newsText.innerHTML = news[i].text;
 
     newsLink.setAttribute('href', news[i].link);
+    newsLink.setAttribute('target', '_blank');
+    newsLink.setAttribute('rel', 'noreferrer')
     newsLink.innerHTML = "Click to read more";
 
     newsItem.appendChild(newsHeadline);
@@ -442,6 +444,7 @@ shop.forEach((shop) => {
 
   link.setAttribute("href", shop.link);
   link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noreferrer");
 
   image.setAttribute("src", shop.image);
   image.setAttribute("alt", shop.alt);
@@ -483,7 +486,6 @@ const updateHeroContainer = () => {
  heroArtist.innerHTML = videos[0].artist;
  heroDescription.innerHTML = videos[0].description;
  heroLink.href = "https://youtu.be/" + videos[0].link;
-
 }
 
 const sections = document.querySelectorAll(".section");
