@@ -314,6 +314,11 @@ const images = [
 
 const news = [
   {
+    title: "1st Anniversary Live Show",
+    text: "Not long to go now until our live anniversary show, make sure to join us 24th April 2021 19:30 GMT",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/291392872548948",
+  },
+  {
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
@@ -327,12 +332,7 @@ const news = [
     title: "Tupelo Tuesday. Promised Land.",
     text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/292022332486002",
-  },
-  {
-    title: "1st Anniversary Live Show",
-    text: "Not long to go now until our live anniversary show, make sure to join us 24th April 2021 19:30 GMT",
-    link: "https://www.facebook.com/fatherandsonkaraoke/posts/291392872548948",
-  },
+  }
 ]
 
 const shop = [
@@ -403,7 +403,7 @@ const loadImages = () => {
 const loadNews = () => {
   const newsContainer = document.querySelector(".news__container");
 
-  for (let i = 0; i < (news.length <= 3 ? news.length : 3); i++) {
+  for (let i = 0; i < (news.length <= 4 ? news.length : 4); i++) {
     const newsItem = document.createElement("div");
     const newsHeadline = document.createElement("h6");
     const newsText = document.createElement("p");
