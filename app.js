@@ -4,7 +4,7 @@ const videos =
     id: 36,
     title: "A thing called love",
     artist: "Johnny Cash",
-    description: "A Thing Called Love is the 39th overall album by country singer Johnny Cash, released on Columbia Records in 1972 (see 1972 in music). The title song, written by Jerry Reed, was released successfully as a single, reaching No. 2 on the country charts",
+    description: "A Thing Called Love is the 39th overall album by country singer Johnny Cash, released on Columbia Records in 1972. The title song, written by Jerry Reed, was released successfully as a single, reaching No. 2 on the country charts",
     link: "rgAoIVcbvu4"
   },
   {
