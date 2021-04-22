@@ -497,30 +497,32 @@ const updateHeroContainer = () => {
  heroLink.href = "https://youtu.be/" + videos[0].link;
 }
 
-const sections = document.querySelectorAll(".section");
+
 
 document.addEventListener("scroll", () => {
-  let scrollPos = window.scrollY;
-  sections.forEach(section => {
-    if (scrollPos >= (section.offsetTop - section.offsetHeight / 2)) {
-      let menuItems = document.querySelectorAll(".menu__item");
-      menuItems.forEach(item => {
-        if (item.hash == "#" + section.id) {
-          item.classList.add("active");
+  const scrollPos = window.innerHeight * 0.8;
+  const sections = document.querySelectorAll('.section');
+  const menuItems = document.querySelectorAll('.menu__item');
+
+  for ( let i = sections.length - 1; i >= 0; i-- ) {
+    if ( scrollPos > sections[i].getBoundingClientRect().top && sections[i].getBoundingClientRect().top >= 0) {
+      menuItems.forEach((item) => {
+        if ( item.hash === `#${sections[i].id}`) {
+          item.classList.add('active');
         } else {
-          item.classList.remove("active");
+          item.classList.remove('active');
         }
       })
     }
-  })
+  }
 })
 
 const countdown = () => {
-  const countdownDate = new Date("April 24, 2021 19:30:00").getTime();
+  const countdownDate = new Date("24 April 2021, 19:30 GMT+02:00");
   const countdownTimer = setInterval(() => {
-    const timeNow = new Date().getTime();
+    const now = new Date();
+const timeNow = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds());
     const timeDifference = countdownDate - timeNow;
-
     if ( timeDifference <= 0 ) {
       clearInterval();
     } else {
