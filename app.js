@@ -417,7 +417,8 @@ const loadNews = () => {
 
     newsLink.setAttribute('href', news[i].link);
     newsLink.setAttribute('target', '_blank');
-    newsLink.setAttribute('rel', 'noreferrer')
+    newsLink.setAttribute('rel', 'noreferrer');
+    newsLink.setAttribute('aria-label', 'Click to read more on Facebook');
     newsLink.innerHTML = "Click to read more";
 
     newsItem.appendChild(newsHeadline);
@@ -445,6 +446,7 @@ shop.forEach((shop) => {
   link.setAttribute("href", shop.link);
   link.setAttribute("target", "_blank");
   link.setAttribute("rel", "noreferrer");
+  link.setAttribute("aria-label", "Click to view item on Ebay");
 
   image.setAttribute("src", shop.image);
   image.setAttribute("alt", shop.alt);
