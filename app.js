@@ -11,13 +11,6 @@ const videos =
     id: 35,
     title: "Promised Land",
     artist: "Elvis Presley",
-    description: "",
-    link: "09HQ8jbBM_Q"
-  },
-  {
-    id: 35,
-    title: "Promised Land",
-    artist: "Elvis Presley",
     description: "Promised Land is the twenty-first studio album by American singer and musician Elvis Presley, released by RCA Records on January 8, 1975. It was recorded in December 1973 at Stax Records studios in Memphis and released on Presley's 40th birthday in January, 1975",
     link: "09HQ8jbBM_Q"
   },
