@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 37,
+    title: "Candida",
+    artist: "Tony Orlando",
+    description: "Candida became a worldwide hit, reaching number one in five countries, and the top ten in many others, including number 3 in the USA.",
+    link: "UyOYq50UnSg"
+  },
+  {
     id: 36,
     title: "A thing called love",
     artist: "Johnny Cash",
