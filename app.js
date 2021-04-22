@@ -508,8 +508,36 @@ document.addEventListener("scroll", () => {
   })
 })
 
+const countdown = () => {
+  const countdownDate = new Date("April 24, 2021 19:30:00").getTime();
+  const countdownTimer = setInterval(() => {
+    const timeNow = new Date().getTime();
+    const timeDifference = countdownDate - timeNow;
+
+    if ( timeDifference <= 0 ) {
+      clearInterval();
+    } else {
+    const days = Math.floor(timeDifference / ( 1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeDifference % ( 1000 * 60 * 60 * 24)) / ( 1000 * 60 * 60 ));
+    const mins = Math.floor((timeDifference % ( 1000 * 60 * 60)) / ( 1000 * 60 ));
+    const secs = Math.floor((timeDifference % ( 1000 * 60)) / ( 1000 ));
+
+    const dayField = document.querySelector('#days');
+    const hourField = document.querySelector('#hours');
+    const minField = document.querySelector('#minutes');
+    const secsField = document.querySelector('#seconds');
+
+    dayField.innerHTML = days;
+    hourField.innerHTML = hours;
+    minField.innerHTML = mins;
+    secsField.innerHTML = secs;
+    }
+  }, 1000)
+}
+
   loadVideos();
   loadImages();
   loadNews();
   loadShop();
   updateHeroContainer();
+  countdown();
