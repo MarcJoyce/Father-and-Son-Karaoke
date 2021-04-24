@@ -1,12 +1,12 @@
 const videos =
 [
   {
-    id: 39
-title:"Pretty Flamingo",
-artist:"Manfred Man",
-description:"The single reached number one in the UK Singles Chart on 5 May 1966. Manfred Mann's recording was a minor hit in the United States where it spent eight weeks on Billboard 's Hot 100 chart, peaking at number 29 during the week of August 6, 1966",
-link:"K7bRFYUF_6g"
-},
+    id: 39,
+    title:"Pretty Flamingo",
+    artist:"Manfred Man",
+    description:"The single reached number one in the UK Singles Chart on 5 May 1966. Manfred Mann's recording was a minor hit in the United States where it spent eight weeks on Billboard 's Hot 100 chart, peaking at number 29 during the week of August 6, 1966",
+    link:"K7bRFYUF_6g"
+  },
   {
     id:38,
     title: "Let's Dance",
