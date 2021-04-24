@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id:38,
+    title: "Let's Dance",
+    artist: "Chris Montez",
+    description: "The personnel on the original recording included Joel Hill on guitar, Ray Johnson on Philicorda organ, Ray Pohlman on bass guitar and Jesse Sailes on drums. When initially released, the song shot to #4 in the U.S chart and to #2 in the UK Chart.",
+    link: "J-niB8cxXVs"
+  },
+  {
     id: 37,
     title: "Candida",
     artist: "Tony Orlando",
