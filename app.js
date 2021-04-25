@@ -349,11 +349,11 @@ const news = [
     text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/292022332486002",
   },
-{
-    title: "1st Anniversary Live Show",
-    text: "Not long to go now until our live anniversary show, make sure to join us 24th April 2021 19:30 GMT",
-    link: "https://www.facebook.com/fatherandsonkaraoke/posts/291392872548948",
-  }
+// {
+//     title: "1st Anniversary Live Show",
+//     text: "Not long to go now until our live anniversary show, make sure to join us 24th April 2021 19:30 GMT",
+//     link: "https://www.facebook.com/fatherandsonkaraoke/posts/291392872548948",
+//   }
 ]
 
 const shop = [
