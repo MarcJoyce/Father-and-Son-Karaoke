@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 40,
+    title: "The Great Pretender",
+    artist: "The Platters",
+    description: "The Great Pretender is a popular song recorded by The Platters, with Tony Williams on lead vocals, and released as a single in November 1955. The song reached No. 1 on Billboard's Top 100, and No. 5 on the UK charts",
+    link: "qUqGTIFZ72I"
+  },
+  {
     id: 39,
     title:"Pretty Flamingo",
     artist:"Manfred Man",
