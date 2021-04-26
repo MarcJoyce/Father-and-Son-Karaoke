@@ -352,8 +352,8 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/videos/501677604577617/?__tn__=-R"
   },
   {
-    title: "Anniversay update",
-    text: "Thank you to everyone who tuned into the anniversary show, we've already surpased £2.4k in generous donations for Fleetwood RNLI!",
+    title: "Anniversary update",
+    text: "Thank you to everyone who tuned into the anniversary show, we've already surpassed £2.4k in generous donations for Fleetwood RNLI!",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/295150708839831?__tn__=-R"
   },
   {
