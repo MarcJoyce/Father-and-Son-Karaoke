@@ -347,6 +347,16 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
+    title: "Todays announcements",
+    text: "Catch up on the latest announcments from Debby, featuring a special guest!",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/501677604577617/?__tn__=-R"
+  },
+  {
+    title: "Anniversay update",
+    text: "Thank you to everyone who tuned into the anniversary show, we've already surpased £2.4k in generous donations for Fleetwood RNLI!",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/295150708839831?__tn__=-R"
+  },
+  {
     title: "Western Wednesday. A thing called love.",
     text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/292654029089499",
