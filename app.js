@@ -348,7 +348,7 @@ const news = [
   },
   {
     title: "Todays announcements",
-    text: "Catch up on the latest announcments from Debby, featuring a special guest!",
+    text: "Catch up on the latest announcements from Debby, featuring a special guest!",
     link: "https://www.facebook.com/fatherandsonkaraoke/videos/501677604577617/?__tn__=-R"
   },
   {
