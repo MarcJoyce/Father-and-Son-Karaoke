@@ -1,6 +1,13 @@
 const videos =
 [
   {
+id: 41,
+title: "Somebody Help Me",
+artist: "The Spencer Davis Group",
+description: "Somebody Help Me became the band's second consecutive number-one hit in the UK Singles Chart, staying at the summit for two weeks in April 1966. In the US, the song peaked at number forty-seven.",
+link: "PWgOk-UNF2E" 
+  },
+  {
     id: 40,
     title: "The Great Pretender",
     artist: "The Platters",
@@ -347,15 +354,20 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
-    title: "Todays announcements",
-    text: "Catch up on the latest announcements from Debby, featuring a special guest!",
-    link: "https://www.facebook.com/fatherandsonkaraoke/videos/501677604577617/?__tn__=-R"
-  },
-  {
     title: "Anniversary update",
     text: "Thank you to everyone who tuned into the anniversary show, we've already surpassed £2.4k in generous donations for Fleetwood RNLI!",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/295150708839831?__tn__=-R"
   },
+  {
+    title: "Wal's waffle",
+    text: "Catch up on the latest announcements from Wal, and remember; be happy, be safe, love each other and a smile goes around the world!!",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/295967718758130"
+  },
+  {
+    title: "Todays announcements",
+    text: "Catch up on the latest announcements from Debby, featuring a special guest!",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/501677604577617/?__tn__=-R"
+  }, 
   {
     title: "Western Wednesday. A thing called love.",
     text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
