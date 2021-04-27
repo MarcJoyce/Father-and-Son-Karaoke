@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 42,
+    title: "Suspicious Minds",
+    artist: "Elvis Presley",
+    description: "Suspicious Minds is a 1968 song written and first recorded by American songwriter Mark James. After this recording failed commercially, it was cut by Elvis Presley with producer Chips Moman, becoming a No.1 song in 1969, and one of the most memorable hits of Presley's career.",
+    link: "nQp9c0hgl2o"
+  },
+  {
 id: 41,
 title: "Somebody Help Me",
 artist: "The Spencer Davis Group",
