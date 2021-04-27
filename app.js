@@ -353,6 +353,10 @@ const news = [
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
+{
+title: "Tupelo Tuesday. Suspicious Minds",
+text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+link: "https://www.facebook.com/watch/?v=471242420866337"},
   {
     title: "Anniversary update",
     text: "Thank you to everyone who tuned into the anniversary show, we've already surpassed £2.4k in generous donations for Fleetwood RNLI!",
