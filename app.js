@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 43,
+    title: "I'm a lonesome fugitive",
+    artist: "Merl Haggard",
+    description: "The song I'm a Lonesome Fugitive brought Haggard country stardom. Although it sounds autobiographical (Haggard had done time at San Quentin), it was actually written by Liz Anderson and her husband, Casey, while driving cross country. Haggard felt a connection to the song immediately and when it was released it became his first number one country hit.",
+    link: "-HQwQDBSKS8"
+  },
+  {
     id: 42,
     title: "Suspicious Minds",
     artist: "Elvis Presley",
