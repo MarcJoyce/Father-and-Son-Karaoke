@@ -420,6 +420,11 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
+    title: "Debbys Drivel",
+    text: "Catch up on the latest announcements with Debby",
+  link: "https://www.facebook.com/fatherandsonkaraoke/posts/297834138571488",
+  },
+  {
   title: "Western Wednesday.  I'm a lonesome fugitive. Merl Haggard.",
     text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/297244521963783"
