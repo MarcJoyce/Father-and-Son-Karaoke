@@ -2,7 +2,7 @@ const videos =
 [
   {
     id : 44,
-    title: "I fough the law",
+    title: "I fought the law",
     artist: "Bobby Fuller Four",
     description: "I Fought the Law is a song written by Sonny Curtis of the Crickets and popularized by a cover by the Bobby Fuller Four, which went on to become a top-ten hit for the band in 1966.",
     link: "0bGs5sExEas"
@@ -425,6 +425,12 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  
+  {
+    title: "Wals waffle",
+    text: "Catch up on the latest announcments with Wal",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/298507511837484"
   },
   {
     title: "Debbys Drivel",
