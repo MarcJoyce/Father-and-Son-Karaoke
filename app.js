@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 45,
+    title: "I don't want our lovin to die",
+    artist: "The Herd",
+    description: "The Herd were an English rock band, founded in 1965. In 1966, 16-year-old Peter Frampton joined as lead singer and guitarist. The band had three UK top twenty hits in the late 1960s, including From the Underworld and I Don't Want Our Loving to Die",
+    link: "mxD1QbK26s4"
+  },
+  {
     id : 44,
     title: "I fought the law",
     artist: "Bobby Fuller Four",
