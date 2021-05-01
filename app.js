@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 46,
+    title: "Will you love me Tomorrow",
+    artist: "Lobo",
+    description: "Will You Love Me Tomorrow, is a song written by Gerry Goffin and Carole King. It was originally recorded in 1960 by the Shirelles, but over the years hundreads of artists have covered the single, including Wal and Dion with their own rendition, inspired by Lobo.",
+    link: "XRe372R7nuY"
+  },
+  {
     id: 45,
     title: "I don't want our lovin to die",
     artist: "The Herd",
