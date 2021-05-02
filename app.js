@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 47,
+    title: "Long black train",
+    artist: "Josh Turner",
+    description: "Having spent more than 30 weeks on the Billboard country charts, Long Black Train reached a peak of #13 in early 2004. On June 1, 2006 it was certified as Gold by the RIAA.",
+    link: "L1_9sC3Wi74"
+  },
+  {
     id: 46,
     title: "Will you love me Tomorrow",
     artist: "Lobo",
