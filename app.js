@@ -447,7 +447,17 @@ const news = [
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
-  
+    {
+    title: "Anniversary update",
+    text: "Thank you to everyone who tuned into the anniversary show, we've already surpassed £2.4k in generous donations for Fleetwood RNLI!",
+    link: "https://www.facebook.com/fatherandsonkaraoke/photos/a.115098416845062/299916975029871/?type=3&__xts__[0]=68.ARDsiPlxYNNpNy3EZ3yScKLqBoLsmJQ3AWibd81vQh-3nIqjR5pHasQ5qX3CEITgVQ7XWr5bZzQys4oQilGshHtD7wjRKTMjSOURmtcxOiqCpih5bc4EHxl4vMhyrakPQTx0eofY8rj1D_Ym_PkI-ua46aX95aJW0E9-3XReE71rbVd5lSejudfGjCh2Do1ccWAAafTuxK3ewZugtLjenm6omIchcncc1jMbsoFbeYJ7W9Fe7FXMiTb1ZrE5H7o4ZzpGP4HTbiib17GEexCOCux-8JmM-GkQZ8C7CDURCHy2JwefLNU"
+  },
+    {
+    title: "Debbys Drivel",
+    text: "Catch up on the latest announcements with Debby",
+  link: "  https://www.facebook.com/fatherandsonkaraoke/videos/981878559292461/?__tn__=-R",
+  },
+
   {
     title: "Wals waffle",
     text: "Catch up on the latest announcments with Wal",
