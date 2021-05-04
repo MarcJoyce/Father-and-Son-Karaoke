@@ -1,6 +1,14 @@
 const videos =
 [
   {
+  id: 48,
+    title: "Running Bear",
+    artist: "Johnny Preston",
+    description: "Running Bear is sung most famously by Johnny Preston in 1959. It was No. 1 for three weeks in January 1960 on the Billboard Hot 100 in the United States. The song also reached No. 1 in the UK Singles Chart and New Zealand in 1960.",
+    link: "GFoaeDLDiYQ"
+  },
+  
+  {
     id: 47,
     title: "Long black train",
     artist: "Josh Turner",
