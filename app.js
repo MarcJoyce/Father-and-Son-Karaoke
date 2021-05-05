@@ -1,6 +1,13 @@
 const videos =
 [
   {
+id: 49,
+title: "I just can't help believing",
+artist: "Elvis Presley",
+description: "I Just Can't Help Believing was recorded by Elvis Presley in 1970 as a track on his album That's the Way It Is. It was released as a single in the UK in November 1971, peaking at No. 6. Presley's version also reached No. 6 in South Africa, and No. 12 in Ireland.",
+link: "XPozYMZ8l7c"
+},
+  {
   id: 48,
     title: "Running Bear",
     artist: "Johnny Preston",
@@ -455,6 +462,10 @@ const news = [
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
+  {
+title: "Tupelo Tuesday. I just can't help believing",
+text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+link: "https://www.facebook.com/fatherandsonkaraoke/videos/260570329125430/?__tn__=-R"},
     {
     title: "Anniversary update",
     text: "Thank you to everyone who tuned into the anniversary show, we've already surpassed £2.4k in generous donations for Fleetwood RNLI!",
