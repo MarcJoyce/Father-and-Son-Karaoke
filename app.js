@@ -1,5 +1,13 @@
 const videos =
 [
+
+  {
+id: 50,
+title: "Penny Arcade",
+artist: "Roy Orbison",
+description: "The line roll up and spend your last dime is a curious mix of American and British vernacular. Roll up is a British saying meaning to get in line (heard in The Beatles' Magical Mystery Tour); a dime is American currency.",
+link: "FygEXZK9tiU"
+},
   {
 id: 49,
 title: "I just can't help believing",
@@ -462,6 +470,11 @@ const news = [
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
+  {
+    title: "Western Wednesday.  Hey Good Lookin'",
+      text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+      link: "https://www.facebook.com/fatherandsonkaraoke/posts/301761988178703"
+    },
   {
 title: "Tupelo Tuesday. I just can't help believing",
 text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
