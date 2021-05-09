@@ -2,6 +2,27 @@ const videos =
 [
 
   {
+id: 54,
+title: "Daydream Believer",
+artist: "The Monkees",
+description: "Daydream Believer is a song composed by American songwriter John Stewart, shortly before he left the Kingston Trio. It was originally recorded by the Monkees, and now by Wal and Dion.",
+link: "WEgZBsSEAlQ"
+},
+  {
+id: 53,
+title: "Hello Mary Lou",
+artist: "Ricky Nelson",
+description: "",
+link: "mUJWuHm0daI"
+},
+  {
+id: 52,
+title: "Wonderful World",
+artist: "Louis Armstrong",
+description: "",
+link: "vtNrU-1eKvE"
+},
+  {
 id: 50,
 title: "Penny Arcade",
 artist: "Roy Orbison",
