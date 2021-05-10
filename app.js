@@ -499,6 +499,11 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
+    title: "Wals Waffle",
+    text: "Catch up on the latest announcments with Wal",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/911410012763964/?__tn__=-R"
+  },
+  {
     title: "Western Wednesday.  Hey Good Lookin'",
       text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
       link: "https://www.facebook.com/fatherandsonkaraoke/posts/301761988178703"
