@@ -1,6 +1,12 @@
 const videos =
 [
-
+  {
+    id: 55,
+    title: "Love Grows Where My Rosemary Goes",
+    artist: "Edison Lighthouse",
+    description: "Love Grows Where My Rosemary Goes is a popular song by Edison Lighthouse, originally recorded by Jefferson. The single reached the number one spot on the UK Singles Chart on the week ending on 31 January 1970, where it remained for a total of five weeks.",
+    link: "74NIV7eh05c"
+  },
   {
 id: 54,
 title: "Daydream Believer",
@@ -497,6 +503,11 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "Wals Waffle",
+    text: "Catch up on the latest announcement and shout outs with Wal and special guest, Dion!",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/1160952327740520/?__tn__=-R"
   },
   {
     title: "Wals Waffle",
