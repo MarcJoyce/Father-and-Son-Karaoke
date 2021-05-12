@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 57,
+    title: "Blue Blue Day",
+    artist: "Don Gibson",
+    description: "Blue Blue Day went to number one for two weeks on the Country & Western Best Seller chart and remained on that chart for a total of six months.",
+    link: "oVOo3eI5Gsw"
+  },
+  {
     id: 56,
     title: "A Fool Such as I",
     artist: "Elvis Presley",
@@ -510,6 +517,11 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "American folk music Wednesday",
+    text: "Check out Dion's latest video as he sings Blue blue day by Don Gibson; with a surprise guest at around 37 secs into the video...",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/306298961058339"
   },
   {
     title: "Wals Waffle",
