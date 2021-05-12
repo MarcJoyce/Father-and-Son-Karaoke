@@ -520,7 +520,17 @@ footer p a {
   
   /* Hero */
 
+  #home {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .hero__image {
+    position: relative;
+  }
+  
   .hero__container {
+    position: relative;
     flex-direction: column;
     padding: 10px;
     justify-content: center;
