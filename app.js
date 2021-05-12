@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 56,
+    title: "A Fool Such as I",
+    artist: "Elvis Presley",
+    description: "Originally sung by Hank Snow, the single reached number 4 on the US Country Charts. Then the King released his own version in 1958, whilst Presley was on leave from the Army; which rocketed to number 1 in the UK charts and number 2 in the US charts.",
+    link: "NwOnbHS5ukY"
+  },
+  {
     id: 55,
     title: "Love Grows Where My Rosemary Goes",
     artist: "Edison Lighthouse",
