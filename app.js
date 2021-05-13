@@ -519,6 +519,11 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
+    title: "Jordan Banks",
+    text: "A special song dedicated to Jordan Banks. Rest in peace young man. ⚽️⚽️⚽️⚽️⚽️⚽️⚽️⚽️⚽️",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/307008887654013"
+  },
+  {
     title: "American folk music Wednesday",
     text: "Check out Dion's latest video as he sings Blue blue day by Don Gibson; with a surprise guest at around 37 secs into the video...",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/306298961058339"
@@ -669,6 +674,19 @@ const loadImages = () => {
   })
 }
 
+const imageSlider = () => {
+  const heroImage = document.querySelector("#image__slider");
+  let i = 0
+  setInterval(() => {
+    heroImage.src = images[i].link
+    i = i + 1
+    if (i > 12) {
+      i = 0
+    }
+  }, 5000)
+  
+}
+
 const loadNews = () => {
   const newsContainer = document.querySelector(".news__container");
 
@@ -811,4 +829,4 @@ const timeNow = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate
   loadNews();
   loadShop();
   updateHeroContainer();
-  countdown();
+  imageSlider();
