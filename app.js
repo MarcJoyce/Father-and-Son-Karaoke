@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 58,
+    title: "Tears in Heaven",
+    artist: "Eric Clapton",
+    description: "Dedicated to Jordan Banks, who sadly lost his life this week. Rest in Peace Jordan",
+    link: "3Qlr8VU7AU0"
+  },
+  {
     id: 57,
     title: "Blue Blue Day",
     artist: "Don Gibson",
