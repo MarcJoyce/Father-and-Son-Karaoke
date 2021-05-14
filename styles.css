@@ -250,10 +250,12 @@ section {
   flex: 1;
   -o-object-fit: cover;
      object-fit: cover;
+  object-position: 30%;
 }
 
 #image__slider {
   display: none;
+    object-position: center;
 }
 
 .hero__container {
