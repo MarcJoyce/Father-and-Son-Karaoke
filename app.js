@@ -676,7 +676,8 @@ const loadImages = () => {
 
 const imageSlider = () => {
   const heroImage = document.querySelector("#image__slider");
-  let i = 0
+  heroImage.src = images[0].link;
+  let i = 1;
   setInterval(() => {
     heroImage.src = images[i].link
     i = i + 1
