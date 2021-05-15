@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 59,
+    title: "Under the Broadwalk",
+    artist: "The Drifters",
+    description: "Under the Boardwalk is a pop song written by Kenny Young and Arthur Resnick and recorded by The Drifters in 1964. It charted at number four on the Billboard Hot 100 chart on August 22, 1964",
+    link: "5oDW1dN2c_w"
+  },
+  {
     id: 58,
     title: "Tears in Heaven",
     artist: "Eric Clapton",
@@ -524,6 +531,11 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "210k Followers",
+    text: "We now have over 210k followers on our Facebook page. Thank you to everyone who are liking, sharing and commenting on our videos and posts, we couldn't have done this without you!",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/307608127594089"
   },
   {
     title: "Jordan Banks",
