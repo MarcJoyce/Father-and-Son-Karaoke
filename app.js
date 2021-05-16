@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 60,
+    title: "Sheila",
+    artist: "Tommy Roe",
+    description: "Roe originally conceived the song as 'Frita', based on a girl from Roe's high school. The song was auditioned to Judd Records, but they suggested that the name be changed. By coincidence, Roe's Aunt Sheila was visiting, which inspired the final title.",
+    link: "v8Hdu0PJJEM"
+  },
+  {
     id: 59,
     title: "Under the Broadwalk",
     artist: "The Drifters",
@@ -531,6 +538,11 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "Debby's Drivel",
+    text: "Catch up on the latest announcements with Debby",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/308279850860250"
   },
   {
     title: "210k Followers",
