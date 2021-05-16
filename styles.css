@@ -250,12 +250,14 @@ section {
   flex: 1;
   -o-object-fit: cover;
      object-fit: cover;
-  object-position: 30%;
+  -o-object-position: 30%;
+     object-position: 30%;
 }
 
 #image__slider {
   display: none;
-    object-position: center;
+    -o-object-position: center;
+       object-position: center;
 }
 
 .hero__container {
@@ -269,7 +271,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 100px;
+  padding: 0 2.5vw;
   z-index: 100;
 }
 
@@ -540,7 +542,8 @@ footer p a {
   }
   
   .hero__container {
-    padding: 20px 10%;
+    padding: 10px 5px;
+    max-height: 40%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -548,11 +551,12 @@ footer p a {
 
   .hero__description__container {
     max-width: 100%;
-    margin: 25px 0;
+    margin: 10px 0;
   }
 
   .hero__description__container p {
     text-align: center;
+    font-size: clamp(0.8rem, 3.5vw, 1rem);
   }
 
   /* Music */
