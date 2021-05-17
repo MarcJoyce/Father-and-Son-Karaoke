@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 61,
+    title: "Haven't met you yet",
+    artist: "Michael Buble",
+    description: "Haven't Met You Yet is the first single from Canadian singer Michael Buble's sixth album, Crazy Love, released on August 31, 2009. The single and its official music video are about everyone's dream of finding a relationship and love. Buble dedicated it to his then fiancée and now wife, Luisana Lopilato.",
+    link: "u_6837oWUio"
+  },
+  {
     id: 60,
     title: "Sheila",
     artist: "Tommy Roe",
@@ -540,6 +547,11 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
+    title: "Wals waffle",
+    text: "Catch up on the latest announcements with Wal",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/308988234122745"
+  },
+  {
     title: "Debby's Drivel",
     text: "Catch up on the latest announcements with Debby",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/308279850860250"
@@ -566,7 +578,7 @@ const news = [
   },
   {
     title: "Wals Waffle",
-    text: "Catch up on the latest announcments with Wal",
+    text: "Catch up on the latest announcements with Wal",
     link: "https://www.facebook.com/fatherandsonkaraoke/videos/911410012763964/?__tn__=-R"
   },
   {
