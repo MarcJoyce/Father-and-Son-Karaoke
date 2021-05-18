@@ -16,7 +16,7 @@ const videos =
   },
   {
     id: 59,
-    title: "Under the Broadwalk",
+    title: "Under the Boardwalk",
     artist: "The Drifters",
     description: "Under the Boardwalk is a pop song written by Kenny Young and Arthur Resnick and recorded by The Drifters in 1964. It charted at number four on the Billboard Hot 100 chart on August 22, 1964",
     link: "5oDW1dN2c_w"
