@@ -448,6 +448,10 @@ link: "PWgOk-UNF2E"
 ];
 
 const images = [
+  {
+    id: 27,
+    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/186506326_307548994266669_3909654165647104112_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=5HMim-fK0-4AX-chERD&_nc_ht=scontent.flba3-2.fna&oh=85429c41b74bddf98d1435fb14d49536&oe=60C914A1"
+  },
       {
     id: 26,
   link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/179551853_297258481962387_6514547587588165981_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=b430Kusb5RcAX9PBL__&_nc_ht=scontent.flba3-2.fna&oh=c8de94681b99c4345d4520f1cd8be218&oe=60AEDE89"
@@ -738,13 +742,13 @@ const loadImages = () => {
 
 const imageSlider = () => {
   const heroImage = document.querySelector("#image__slider");
-  heroImage.src = images[0].link;
-  let i = 1;
+  heroImage.src = images[1].link;
+  let i = 2;
   setInterval(() => {
     heroImage.src = images[i].link
     i = i + 1
     if (i > 12) {
-      i = 0
+      i = 1
     }
   }, 5000)
   
