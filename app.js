@@ -561,6 +561,11 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
+    title: "Tupelo Tuesday. The Wonder of You",
+    text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/3038043243091393"
+  },
+  {
     title: "Wals waffle",
     text: "Catch up on the latest announcements with Wal",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/308988234122745"
