@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 64,
+    title: "What made Milwaukee famous",
+    artist: "Jerry Lee Lewis",
+    description: "What's Made Milwaukee Famous is a song written by Glenn Sutton. The song's title is a reference to beer, specifically Schlitz beer, which for many years was advertised with the slogan, 'The beer that made Milwaukee famous.'. In 1968, Jerry Lee Lewis released his version as a single. It became a top 10 hit on Billboard's Country chart and also made a minor impact on the Billboard Hot 100.",
+    link: "ibQCCWj2Xlo"
+  },
+  {
     id: 63,
     title: "The Wonder of You",
     artist: "Elvis Presley",
@@ -563,6 +570,16 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "Western Wednesday.  What made Milwaukee Famous'",
+      text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+      link: "https://www.facebook.com/fatherandsonkaraoke/videos/557712051878066/"
+    },
+  {
+    title: "Wals waffle",
+    text: "Catch up on the latest announcements with Wal and Dion",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/vb.112197893801781/"
   },
   {
     title: "Tupelo Tuesday. The Wonder of You",
