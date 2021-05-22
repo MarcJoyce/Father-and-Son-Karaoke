@@ -1,6 +1,20 @@
 const videos =
 [
   {
+    id: 66,
+    title: "Here Comes My Baby",
+    artist: "Tremeloes",
+    description: "This was written in London in 1966 by Cat Stevens. It was almost released as Cat's first single, but 'I Love My Dog' was thought to be stronger. After 'I Love My Dog's' success, 'Here Comes My Baby' was shelved. The Tremeloes picked it up and it became their breakthrough hit in America and their first hit in the UK since their lead singer Brian Poole left them. Another of Cat Stevens most popular songs??? Father and Son.",
+    link: "NwT6difmWZo"
+  },
+  {
+    id: 65,
+    title: "Lean on Me",
+    artist: "Bill Withers",
+    description: "",
+    link: "vsQyB8JNl0w"
+  },
+  {
     id: 64,
     title: "What made Milwaukee famous",
     artist: "Jerry Lee Lewis",
@@ -570,6 +584,11 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "Wals waffle",
+    text: "Catch up on the latest announcements with Wal",
+    link: "https://www.facebook.com/fatherandsonkaraoke/posts/312889573732611"
   },
   {
     title: "Western Wednesday.  What made Milwaukee Famous'",
