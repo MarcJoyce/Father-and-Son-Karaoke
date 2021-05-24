@@ -780,14 +780,14 @@ const loadVideos = () => {
 
 const loadImages = () => {
   const galleryContainer = document.querySelector(".gallery__container");
-  images.forEach((image) => {
+  for (let i = 0; i < 8; i++) {
     const img = document.createElement("img");
     img.setAttribute('src', image.link);
     img.setAttribute('alt', "Image of the Father and Son Karaoke Kings team");
     img.setAttribute('loading', "lazy");
 
     galleryContainer.appendChild(img);
-  })
+  }
 }
 
 const imageSlider = () => {
