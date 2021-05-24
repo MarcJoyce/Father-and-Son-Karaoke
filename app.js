@@ -780,7 +780,7 @@ const loadVideos = () => {
 
 const loadImages = () => {
   const galleryContainer = document.querySelector(".gallery__container");
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 14; i++) {
     const img = document.createElement("img");
     img.setAttribute('src', image.link);
     img.setAttribute('alt', "Image of the Father and Son Karaoke Kings team");
