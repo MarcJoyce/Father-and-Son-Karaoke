@@ -1,6 +1,20 @@
 const videos =
 [
   {
+    id: 68,
+    title: "Words",
+    artist: "Bee Gees",
+    description: "Words is a song by the Bee Gees, written by Barry, Robin & Maurice Gibb. The song reached No. 1 in Germany, Canada, Switzerland, and the Netherlands. 'Words' was the Bee Gees third UK top 10 hit, reaching number 8, and in a UK television special on ITV in December 2011 it was voted fourth in 'The Nation's Favourite Bee Gees Song'",
+    link: "cmeygB66ZzY"
+  },
+  {
+    id: 67,
+    title: "Dance The Night Away",
+    artist: "The Mavericks",
+    description: "",
+    link: "iGguynDDdzE"
+  },
+  {
     id: 66,
     title: "Here Comes My Baby",
     artist: "Tremeloes",
