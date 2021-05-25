@@ -737,7 +737,7 @@ const shop = [
   {
     title: "Father and Son CD 2",
     description: "Golden Oldies Volume 2",
-    link: "https://www.ebay.co.uk/itm/Father-And-Son-CD-2/114750426515",
+    link: "https://www.ebay.co.uk/itm/Father-And-Son-CD-2/114824431477",
     image: "https://i.ebayimg.com/images/g/z14AAOSw2INgZuei/s-l1600.jpg",
     image2: "/assets/cd_image_2_back.jpg",
     alt: "Father and Son CD - 2"
