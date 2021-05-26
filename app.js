@@ -1,6 +1,20 @@
 const videos =
 [
   {
+    id: 70,
+    title: "You're the Devil in Disguise",
+    artist: "Elvis Presley",
+    description: "The song peaked at No. 3 in the US on the Billboard singles chart, becoming Elvis's last top ten single on the Rhythm and Blues charts. The single was certified 'Gold' for sales in excess of 500,000 units in the US. In 1963, when the song was debuted to British audience's; John Lennon voted the song 'a miss'. The song went on to reach No. 1 in the UK.",
+    link: "MYiKRM7qmWc"
+  },
+  {
+    id: 69,
+    title: "Father and Son",
+    artist: "Cat Stevens",
+    description: "",
+    link: "S5NLsWCVXlE"
+  },
+  {
     id: 68,
     title: "Words",
     artist: "Bee Gees",
@@ -598,6 +612,11 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "Tupelo Tuesday. Devil in Disguise",
+    text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/144042424424627/?__tn__=-R"
   },
   {
     title: "Wals waffle",
