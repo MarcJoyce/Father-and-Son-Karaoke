@@ -1,5 +1,20 @@
 const videos =
 [
+  
+  {
+    id: 72,
+    title: "Rave On",
+    artist: "Buddy Holly",
+    description: "'Rave On', is a song written by Sonny West, Bill Tilghman and Norman Petty in 1958. It was first recorded by West for Atlantic Records, which released his version in February 1958. Buddy Holly recorded the song later the same year, and his version became a hit, one of six of his recordings that charted in 1958. Holly is instantly recognizable as the artist: the record begins with a drawn-out 'Well…' as stylized by Holly's distinctive hiccup",
+    link: "fXwJ07lrpjk",
+  },
+  {
+    id: 71,
+    title: "I Walk the Line",
+    artist: "Johnny Cash",
+    description: "",
+    link: "Dtn4WM7JvYk",
+  },
   {
     id: 70,
     title: "You're the Devil in Disguise",
