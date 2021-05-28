@@ -629,6 +629,16 @@ const news = [
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
   },
   {
+    title: "Dions Waffle",
+    text: "Catch up on the latest announcements with Dion",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/2899569050282064/?__tn__=-R"
+  },
+  {
+    title: "Western Wednesdays",
+    text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe adn hit that bell to be notified whenever our videos go live",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/163169632427502/?__tn__=-R"
+  },
+  {
     title: "Tupelo Tuesday. Devil in Disguise",
     text: "Check out the latest videos anytime on our YouTube channel. Make sure to like and subscribe and hit that bell to be notified whenever our videos go live",
     link: "https://www.facebook.com/fatherandsonkaraoke/videos/144042424424627/?__tn__=-R"
