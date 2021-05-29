@@ -1,6 +1,12 @@
 const videos =
 [
-  
+  {
+    id: 73,
+    title: "The Story of My Life",
+    artist: "Michael Holliday",
+    description: "'The Story of My Life' is a song written by Burt Bacharach and Hal David. The song was a 1957 hit for American country music singer Marty Robbins, which peaked at number one on the US country chart. In the UK, a cover version recorded by Michael Holliday reached No.1 in the UK Singles Chart in February 1958, before being replaced by Perry Como's 'Magic Moments', also written by Bacharach and David.",
+    link: "7_KL5eXbMzU"
+  },
   {
     id: 72,
     title: "Rave On",
@@ -627,6 +633,11 @@ const news = [
     title: "CD Volume 2",
     text: "Here it is, the long awaited Father and Son The Karaoke Kings Golden Oldies Volume 2",
     link: "https://www.facebook.com/fatherandsonkaraoke/posts/280024873685748",
+  },
+  {
+    title: "Wals Waffle",
+    text: "Catch up on the latest announcements with Wal",
+    link: "https://www.facebook.com/fatherandsonkaraoke/videos/464424861513084/?__tn__=-R"
   },
   {
     title: "Dions Waffle",
