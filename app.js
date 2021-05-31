@@ -1,5 +1,12 @@
 const videos =
 [
+    {
+    id: 74,
+    title: "At The Hop",
+    artist: "Danny & the Juniors",
+    description: "'At the Hop' is a 50s pop song written by Artie Singer, John Medora, and David White and originally released by Danny & the Juniors. The song was released in the fall of 1957 and reached number one on the US charts on January 6, 1958, becoming one of the top-selling singles of 1958.",
+    link: "cOfTDgKWFVc"
+  },
   {
     id: 73,
     title: "The Story of My Life",
