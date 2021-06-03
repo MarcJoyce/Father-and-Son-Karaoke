@@ -547,114 +547,62 @@ link: "PWgOk-UNF2E"
 
 const images = [
   {
-    id: 27,
-    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/186506326_307548994266669_3909654165647104112_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=5HMim-fK0-4AX-chERD&_nc_ht=scontent.flba3-2.fna&oh=85429c41b74bddf98d1435fb14d49536&oe=60C914A1"
-  },
-      {
-    id: 26,
-  link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/179551853_297258481962387_6514547587588165981_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=b430Kusb5RcAX9PBL__&_nc_ht=scontent.flba3-2.fna&oh=c8de94681b99c4345d4520f1cd8be218&oe=60AEDE89"
-  },
-      {
-    id: 25,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/178944778_297257518629150_700613616916205034_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=UBA5jI93nzMAX8v6ZXT&_nc_ht=scontent.flba3-1.fna&oh=ebea710afb486b2b77e32ab53142aae4&oe=60AE204F"
-  },
-      {
-    id: 24,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/179748230_297256531962582_3509266711166447775_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=BmnXQ-vdHd0AX9xURoG&_nc_ht=scontent.flba3-1.fna&oh=33e6e0ad404fb98d065313ff0325630e&oe=60B1240B"
-  },
-      {
-    id: 23,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/179669853_297256495295919_6873580974813483716_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=tABDSjX5Y8wAX_PoNdE&_nc_ht=scontent.flba3-1.fna&oh=254792ddaac98ba1da78ce5cedcf64d1&oe=60AF6EB8"
-  },
-      {
-    id: 22,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/179473331_297255705295998_6300380269298077659_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Q43899kjIFgAX8mdWO3&_nc_ht=scontent.flba3-1.fna&oh=549efc178b26dc18450919788da4e2ab&oe=60B0D08E"
-  },
-    {
-    id: 21,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/178731300_297255665296002_1431249382103552708_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=7BZlMY6jmt8AX91SWLv&_nc_ht=scontent.flba3-1.fna&oh=d1298445731ba3fbb218ba9217da27d4&oe=60B12018"
-  },
-  {
-    id: 20,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/180377341_297254895296079_6164787968921041235_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=J7EmbXYNlnMAX9ZMqQk&_nc_ht=scontent.flba3-1.fna&oh=00c1ddd65074f720b752a46817be9e43&oe=60AE83C2"
-  },
-    {
-    id: 19,
-  link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/179418531_297254851962750_9030919884274572652_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Thm3N8G_qWMAX8oqElf&_nc_ht=scontent.flba3-2.fna&oh=fdb9fc3d736ccf9af1e8b0b519019a17&oe=60AF99E3"
-  },
-    {
-    id: 18,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/179809948_297253391962896_4217500022077517048_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=vUzSFm9-mxgAX8hxkp7&_nc_ht=scontent.flba3-1.fna&oh=bcb77d85a1339e02dc4b4680b822a164&oe=60AECB47"
-  },
-    {
-    id: 17,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/179849211_297253361962899_6451568577264888592_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=m0SzIcKdwtYAX9C8KiK&_nc_ht=scontent.flba3-1.fna&oh=4434c4c7152d75d6af5068779d733b8a&oe=60AFCEF9"
-  },
-    {
-    id: 16,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/179788793_297251885296380_1628656912336227258_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=RM0OjMSv0n0AX9XHGOY&_nc_ht=scontent.flba3-1.fna&oh=e5763ae71e292dd0b57a51e5c66e099b&oe=60B12EA8"
-  },
-    {
-    id: 15,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/179487625_297250645296504_3035928892939018314_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=PTDM-Kd97psAX-UGfAT&_nc_ht=scontent.flba3-1.fna&oh=8c535c91e11a1af6049abdf0438e07b9&oe=60AE93D0"
-  },
-    {
-    id: 14,
-  link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/179483219_297250601963175_5823414118360434839_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=hH9nVF_aEmUAX_aUgKL&_nc_ht=scontent.flba3-2.fna&oh=2744d9960c3e177c1782255ed503cddc&oe=60AEE4A5"
-  },
-  {
     id: 1,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c0.0.206.206a/p206x206/94612991_112338373787733_8120144416259178496_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=DkpjQHnnDLYAX9ICczC&_nc_ht=scontent.flba3-1.fna&tp=27&oh=266a9a2052702861544c048803576885&oe=60A52948",
+    link: "/assets/gallery/photo1.jpg",
   },
   {
     id: 2,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c0.0.206.206a/p206x206/94780057_115131926841711_6672786088714567680_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=MutUDSxIoA0AX_TyNN_&_nc_ht=scontent.flba3-1.fna&tp=27&oh=6e82be981e95dd305ba2aca2414d9cf4&oe=60A46BC9",
+    link: "/assets/gallery/photo2.jpg",
   },
   {
     id: 3,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c59.0.206.206a/p206x206/106494896_145449000476670_5672627025832588491_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=3tLc-sA9vTkAX9-1zbU&_nc_ht=scontent.flba3-1.fna&tp=27&oh=181787eb905351488f2d1788b6619ccb&oe=60A590B8",
+    link: "/assets/gallery/photo3.jpg",
   },
   {
     id: 4,
-    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-0/c69.0.206.206a/p206x206/119000154_168807974807439_1462339608267949082_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=QhJbq5qOzSQAX95AqD3&_nc_ht=scontent.flba3-2.fna&tp=27&oh=4e0f75d34413cf0bff260f1b9e1fb8df&oe=60A60A26",
+    link: "/assets/gallery/photo4.jpg",
   },
   {
     id: 5,
-    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-0/c0.24.206.206a/p206x206/119088590_168809491473954_2531834206782853717_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=e3f864&_nc_ohc=6PMl-2woK_sAX8S0GUK&_nc_ht=scontent.flba3-2.fna&tp=27&oh=837b0b1897b0b69013e63f065300ae8d&oe=60A33C26",
+    link: "/assets/gallery/photo5.jpg",
   },
   {
     id: 6,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c0.5.206.206a/p206x206/119002397_168810621473841_4938151856468770837_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=e3f864&_nc_ohc=MUY_nOGgNjkAX93vxeY&_nc_ht=scontent.flba3-1.fna&tp=27&oh=705414eebaf9ec9b90ceb6de3c07f459&oe=60A58BB1",
+    link: "/assets/gallery/photo6.jpg",
   },
   {
     id: 7,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/p206x206/120925102_176722584015978_6227394193443261340_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=m-VWbaz7uZAAX9IxPaZ&_nc_ht=scontent.flba3-1.fna&tp=6&oh=106ea391fe7a44a6fd959c341c56ab5d&oe=60A5787A",
+    link: "/assets/gallery/photo7.jpg",
   },
   {
     id: 8,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/120906719_176721797349390_1177484749399556956_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=973b4a&_nc_ohc=IOTItUwSpEIAX-XMcAV&_nc_ht=scontent.flba3-1.fna&oh=bc4ab68e85d6032b0d467f6cfefd7231&oe=60A3DE09",
+    link: "/assets/gallery/photo8.jpg",
   },
   {
     id: 9,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-0/c21.0.206.206a/p206x206/156957271_259743359047233_4134266373333672214_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=4ObWP-ErJXwAX85JwkO&_nc_ht=scontent.flba3-1.fna&tp=27&oh=774e280be98fbc97c906fa2357f2b145&oe=60A44C77",
+    link: "/assets/gallery/photo9.jpg",
   },
   {
     id: 10,
-    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/176057645_291392799215622_6655383617501137607_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=QkfxHZvKAtIAX_kdaYX&_nc_ht=scontent.flba3-2.fna&oh=42e237317dad40c5c20fcc514c29b1f3&oe=60A74D4B",
+    link: "/assets/gallery/photo10.jpg",
   },
   {
     id: 11,
-    link: "https://scontent.flba3-2.fna.fbcdn.net/v/t1.6435-9/150763028_248883926799843_641180579436539721_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=b8EHAZ77bMsAX-CZcae&_nc_ht=scontent.flba3-2.fna&oh=0e81b3e65aeb7ce96e7599c840c495b7&oe=60A774D5"
+    link: "/assets/gallery/photo11.jpg",
   },
   {
-    id : 12,
-    link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/150519774_248883900133179_1488005787603273318_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=dm-Q-onzcJMAX_qa2kF&_nc_ht=scontent.flba3-1.fna&oh=3adc60299b7570665f5ead0c7a3360e1&oe=60A49938"
-},
-{
-  id: 13,
-  link: "https://scontent.flba3-1.fna.fbcdn.net/v/t1.6435-9/120197611_173952274293009_5220800774652290452_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=BYs_m4sqJuEAX-DQOtc&_nc_ht=scontent.flba3-1.fna&oh=dcd3cde040d4b9246a4f82ae163b7246&oe=60A79704",
-},
-]
+    id: 12,
+    link: "/assets/gallery/photo12.jpg",
+  },
+  {
+    id: 13,
+    link: "/assets/gallery/photo13.jpg",
+  },
+  {
+    id: 14,
+    link: "/assets/gallery/photo14.jpg",
+  },
+];
 
 const news = [
   {
