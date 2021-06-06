@@ -1,6 +1,20 @@
 const videos =
 [
   {
+    id: 79,
+    title: "Let's Think About Livin",
+    artist: "Bob Luman",
+    description: "The song is an open critique of the teenage tragedy song and gunfighter ballad genera of the time, humorously quipping that if Marty Robbins, Patti Page and the Everly Brothers actually died in the songs where they mention dying that the singer will soon be the last surviving musician in the industry.",
+    link: "ffUMx029-yY"
+  },
+  {
+    id:78,
+    title: "Everything",
+    artist: "Michael Buble",
+    description: "",
+    link: "lA4gSRnI6po"
+  },
+  {
     id: 77,
     title: "If Tomorrow Never Comes",
     artist: "Garth Brookes",
