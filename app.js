@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 80,
+    title: "Twistin' the Night Away",
+    artist: "Sam Cooke",
+    description: "Twistin' the Night Away is a song written and recorded by Sam Cooke. The song was recorded with The Wrecking Crew as session musicians, including Rene Hall as band leader, Red Callender on bass, Earl Palmer on drums, Tommy Tedesco and Clifton White on guitars, Ed Beal on piano, John Kelson, John Ewing and Jewell Grant on saxophone and Stuart Williamson on trumpet.[",
+    link: "gUFrR-iMVBA"
+  },
+  {
     id: 79,
     title: "Let's Think About Livin",
     artist: "Bob Luman",
