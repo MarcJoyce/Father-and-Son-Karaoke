@@ -788,7 +788,7 @@ const shop = [
   {
     title: "Lockdown 2020 Father and Son",
     description: "Golden Oldies Volume 1",
-    link: "https://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1-/114754445030",
+    link: "https://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1/114754445030",
     image: "https://i.ebayimg.com/images/g/sJwAAOSwDl5gaz2d/s-l1600.jpg",
     image2: "/assets/cd_image_back.jpg",
     alt: "Father and Son CD"
