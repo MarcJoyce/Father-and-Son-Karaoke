@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 82,
+    title: "GI Blues",
+    artist: "Elvis Presley",
+    description: "G.I. Blues is the third soundtrack album and seventh album by American singer and musician Elvis Presley, released in October 1960. It is the soundtrack to the 1960 film of the same name in which he starred.",
+    link: "f6tXLbMPuV8"
+  },
+  {
     id: 81,
     title: "Jump Jive an' Wail",
     artist: "Brian Setzer",
