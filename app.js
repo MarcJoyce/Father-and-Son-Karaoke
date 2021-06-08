@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 81,
+    title: "Jump Jive an' Wail",
+    artist: "Brian Setzer",
+    description: "Originally performed by Louis Prima in 1956, The Brian Setzer Orchestra covered the song on their 1998 album The Dirty Boogie. In 1999, Setzer's cover won the Grammy Award for Best Pop Performance by a Duo or Group with Vocals at the 41st Grammy Awards.",
+    link: "LJ6JQkhlr3o"
+  },
+  {
     id: 80,
     title: "Twistin' the Night Away",
     artist: "Sam Cooke",
