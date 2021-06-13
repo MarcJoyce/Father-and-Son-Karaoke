@@ -1,5 +1,26 @@
 const videos =
 [
+{
+  id: 86,
+  title:"Rockin' Robin",
+  artist:"Bobby Day",
+  description:"'Rockin' Robin' was Day's biggest hit single, becoming a number two hit on the (US) Billboard Hot 100, and spent one week at the top of the charts in R&B sales. Michael Jackson covered the song in 1972, but didn't better Day's number two hit.",
+  link:"vRLKZwSd3no"
+},
+{
+  id: 85,
+  title:"Hucklebuck",
+  artist:"Paul Williams and the Hucklebuckers",
+  description:"",
+  link:"DDLwR_6ACUU"
+},
+{
+  id: 84,
+  title:"Lonely Blue Boy",
+  artist:"Conway Twitty",
+  description:"",
+  link:"X8756xneI48"
+},
   {
     id:83,
     title:"Chasing that Neon Rainbow",
