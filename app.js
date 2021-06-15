@@ -4,7 +4,7 @@ const videos =
     id: 89,
     title: "American Trilogy",
     artist: "Elvis Presley",
-    description: "",
+    description: "'An American Trilogy' is a 1971 song medley arranged by country composer Mickey Newbury and popularized by Elvis Presley, who included it as a showstopper in his concert routines",
     link: "mve-soqn9fM"
   },
   {
