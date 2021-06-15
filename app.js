@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 89,
+    title: "American Trilogy",
+    artist: "Elvis Presley",
+    description: "",
+    link: "mve-soqn9fM"
+  },
+  {
     id: 88,
     title: "Take It Easy",
     artist: "The Eagles",
