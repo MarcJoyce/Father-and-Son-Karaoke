@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 89,
+    title: "American Trilogy",
+    artist: "Elvis Presley",
+    description: "'An American Trilogy' is a 1971 song medley arranged by country composer Mickey Newbury and popularized by Elvis Presley, who included it as a showstopper in his concert routines",
+    link: "mve-soqn9fM"
+  },
+  {
     id: 88,
     title: "Take It Easy",
     artist: "The Eagles",
@@ -1052,7 +1059,7 @@ const timeNow = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate
 
   loadVideos();
   loadImages();
-  <!--loadNews();-->
+  // loadNews();
   loadShop();
   updateHeroContainer();
   imageSlider();
