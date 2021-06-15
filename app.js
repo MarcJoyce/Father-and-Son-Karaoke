@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 88,
+    title: "Take It Easy",
+    artist: "The Eagles",
+    description: "'Take It Easy' is a song by the American rock band Eagles, written by Jackson Browne and Eagles band member Glenn Frey, who also provides lead vocals. It was the band's first single, released on May 1, 1972. It peaked at No. 12 on the July 22, 1972, Billboard Hot 100 chart. It also was the opening track on the band's debut album Eagles and it has become one of their signature songs, included on all of their live and compilation albums. It is listed as one of The Rock and Roll Hall of Fame's 500 Songs that Shaped Rock and Roll.",
+    link: "Bay1u1nFeIc"
+  },
+  {
   id: 87,
   title: "Saints Rock n Roll",
     artist: "Bill Haley",
