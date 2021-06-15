@@ -1052,7 +1052,7 @@ const timeNow = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate
 
   loadVideos();
   loadImages();
-  loadNews();
+  //loadNews();
   loadShop();
   updateHeroContainer();
   imageSlider();
