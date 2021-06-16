@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 90,
+    title: "El Paso",
+    artist: "Marty Robbins",
+    description: "'El Paso' is a western ballad written and originally recorded by Marty Robbins, and first released on Gunfighter Ballads and Trail Songs in September 1959. It was released as a single the following month, and became a major hit on both the country and pop music charts, reaching No. 1 in both at the start of 1960 (the first No. 1 hit of the 1960s). It won the Grammy Award for Best Country & Western Recording in 1961, and remains Robbins' best-known song.",
+    link: "dBO10xxaUgI"
+  },
+  {
     id: 89,
     title: "American Trilogy",
     artist: "Elvis Presley",
@@ -977,7 +984,6 @@ shop.forEach((shop) => {
   item.appendChild(title);
   item.appendChild(description);
   item.appendChild(link);
-
   shopContainer.appendChild(item);
 })
 }
