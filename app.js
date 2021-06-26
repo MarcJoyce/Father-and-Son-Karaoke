@@ -1,6 +1,20 @@
 const videos =
 [
   {
+    id: 97,
+    title: "My Girl",
+    artist: "The Temptations",
+    description: "'My Girl' is a soul music song recorded by the Temptations for the Gordy (Motown) record label. Written and produced by the Miracles members Smokey Robinson and Ronald White, it became the Temptations' first U.S. number 1 single, and is today their signature song. Robinson's inspiration for writing 'My Girl' was his wife, Miracles member Claudette Rogers Robinson. The song was included on the Temptations 1965 album The Temptations Sing Smokey.",
+    link: "VPE_nmo_vik"
+  },  
+  {
+    id: 96,
+    title: "Sweet Home Chicago",
+    artist: "Status Quo",
+    description: "'Sweet Home Chicago' is a blues standard first recorded by Robert Johnson in 1936. Although he is often credited as the songwriter, several songs have been identified as precedents. The song has become a popular anthem for the city of Chicago despite ambiguity in Johnson's original lyrics. Numerous artists have interpreted the song in a variety of styles, including Status Quo, which is the inspiration behind Wal and Dions.",
+    link: "epDVn7GHeMY"
+  },
+  {
     id: 95,
     title: "You Gave Me a Mountain",
     artist: "Elvis Presley",
