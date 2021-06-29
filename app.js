@@ -1,6 +1,19 @@
 const videos =
 [
   {
+    id: 100,
+    title: "Teddy Bear",
+    artist: "Elvis Presley",
+    description: "'(Let Me Be Your) Teddy Bear' is a popular song first recorded by Elvis Presley in 1957 for the soundtrack of his second motion picture, Loving You, during which Presley performs the song on screen.",
+    link: "eXJKnBnqk_g"
+  },
+  {
+  id: 99,
+    title: "Let it Rock",
+    artist: "Chuck Berry",
+    link: "IW9BrGsu4ds"
+  },
+  {
     id: 98,
     title: "Country Roads",
     artist: "John Denver",
