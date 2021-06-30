@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 101,
+    title: "Love's Got a Hold on You",
+    artist: "Alan Jackson",
+    description: "'Love's Got a Hold on You' is a song written by Carson Chamberlain and Keith Stegall and performed by American country music artist Alan Jackson. It was released in July 1992 as the final single from Jackson's second album, Don't Rock the Jukebox. It was also the only song that Jackson did not co-write on the album. It peaked at number 1 on both the U.S. Billboard country music chart, and on the Canadian RPM country music chart.",
+    link: "4dp_nRvdGkI"
+  },
+  {
     id: 100,
     title: "Teddy Bear",
     artist: "Elvis Presley",
