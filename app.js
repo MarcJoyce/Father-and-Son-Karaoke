@@ -3,7 +3,7 @@ const videos =
   {
     id: 105,
     title: "Peggy Sue got Married",
-    artist: "Budd Holly",
+    artist: "Buddy Holly",
     description: "Buddy Holly recorded the vocal, accompanying himself on guitar, on December 8, 1958. It was posthumously released in July 1959 as a 45-rpm single with 'Crying, Waiting, Hoping'. It refers to his 1957 hit song 'Peggy Sue'. It was one of the first sequels of the rock era.",
     link: "Uf3Bs65EGcw"
   },
