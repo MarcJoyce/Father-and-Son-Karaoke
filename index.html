@@ -49,11 +49,15 @@
           <ul class="full__menu">
             <li><a href="#home" class="menu__item active sub__heading">Home</a></li>
             <span class="text">/</span>
+            <li><a href="#ambassador" class="menu__item active sub__heading">Ambassadors</a></li>
+            <span class="text">/</span>
             <li><a href="#music" class="menu__item sub__heading">Music</a></li>
             <span class="text">/</span>
             <!--<li><a href="#news" class="menu__item sub__heading">News</a></li>
             <span class="text">/</span>-->
             <li><a href="#gallery" class="menu__item sub__heading">Gallery</a></li>
+            <span class="text">/</span>
+            <li><a href="#charity" class="menu__item sub__heading">Charities</a></li>
             <span class="text">/</span>
             <li><a href="#about" class="menu__item sub__heading">About us</a></li>
             <span class="text">/</span>
@@ -95,9 +99,11 @@
         <div class="responsive__menu">
           <ul>
             <li onclick="toggleMenu()"><a href="#home" class="menu__item active heading">Home</a></li>
+            <li onclick="toggleMenu()"><a href="#ambassador" class="menu__item heading">Ambassadors</a></li>
             <li onclick="toggleMenu()"><a href="#music" class="menu__item heading">Music</a></li>
             <!--<li onclick="toggleMenu()"><a href="#news" class="menu__item heading">News</a></li>-->
             <li onclick="toggleMenu()"><a href="#gallery" class="menu__item heading">Gallery</a></li>
+            <li onclick="toggleMenu()"><a href="#charity" class="menu__item heading">Charities</a></li>
             <li onclick="toggleMenu()"><a href="#about" class="menu__item heading">About us</a></li>
             <li onclick="toggleMenu()"><a href="#shop" class="menu__item heading">Shop</a></li>
             <li onclick="toggleMenu()"><a href="#contact" class="menu__item heading">Contact</a></li>
@@ -107,24 +113,26 @@
       </nav>
     </header>
     <section id="home" class="section"> 
-      <img src="/assets/hero_image.jpg" alt="" class="hero__image" loading="lazy"/>
-      <img src="" alt="" id="image__slider" class="hero__image" loading="lazy"/>
-      <div class="hero__container">
-        <div class="hero__title__container">
-          <h2 class="hero__title sub__heading">New Video</h2>
-          <h3 class="hero__name heading"></h3>
-          <h4 class="hero__artist text"></h4>
-        </div>
-        <div class="hero__description__container">
-          <p class="hero__description__text text">
 
-          </p>
-        </div>
-        <div class="hero__cta__container">
-          <a href="" class="hero__cta__link" target="_blank" rel="noreferrer" aria-label="Watch the video on YouTube"
-            ><i class="text fa fa-play-circle"></i>
-            <p class="text">Watch the video</p>
-          </a>
+      <div class="hero-container">
+        <h4 class="hero-artist text"></h4>
+        <h4 class="hero-name heading"></h4>
+        <p class="hero-description text"></p>
+        <a href="" class="hero-cta-link" target="_blank" rel="noreferrer" aria-label="Watcht the video on youtube">
+          <i class="text fa fa-play-circle"></i>
+      </a>
+      </div>
+
+       <div class="hero-image-container">
+         <img src="/assets/hero_image.jpg" alt="" class="hero-image" loading="lazy"/></div>
+    </section>
+    <section id="ambassador" class="section">
+      <h2 class="section__title">Ambassador's for</h2>
+      <div class="ambassador-container">
+        <div class="ambassador-item">
+          <h3 class="sub__heading">Bandstart UK</h3>
+          <p class="text">Bandstart UK is a platform gathering the best new talent from across the globe.</p>
+          <a class="text" href="https://bandstart.uk/father-and-son/" target="_blank" rel="noreferrer" aria-label="bandstart uk website link">Click here to view our page</a>
         </div>
       </div>
     </section>
@@ -144,6 +152,45 @@
     <section id="gallery" class="section">
       <h2 class="section__title">Gallery</h2>
       <div class="gallery__container">
+      </div>
+    </section>
+    <section id="charity" class="section">
+      <h2 class="sub__heading section__title">Charities</h2>
+      <p>Father and Son support a number of charities which hold a special place in our hearts. We strongly value the services they provide to our communities and appreciate the contributions that our Father and Son online 'family' have made to them.</p>
+      <div class="charity-container">
+        <div class="charity-item">
+          <h3 class="sub__heading">
+            Willow Garden Project
+          </h3>
+          <p class="text">
+            "We are a registered charity in Fleetwood which aims to use gardening to improve physical and mental health. Gardening can help everyone, regardless of age and disabilities to make positive changes to their lives–feeling happier, healthier, and more confident.  Activities available for all, a safe place for people to meet, relax and enjoy the beautiful garden.""
+          </p>
+          <a class="text" href="http://79.170.40.32/willowgardenproject.org.uk/" aria-label="Willow Garden Project website" target="_blank" rel="noreferrer">
+            Visit their website
+          </a>
+        </div>
+        <div class="charity-item">
+          <h3 class="sub__heading">
+            Fleetwood Lifeboat
+          </h3>
+          <p class="text">
+            RNLI lifeboat crews protect hundreds of communities around the UK and Ireland through our 24-hour search and rescue service. To do so, they rely on the safest, most reliable lifeboats and modern stations to launch from.
+          </p>
+          <a class="text" href="https://rnli.org/find-my-nearest/lifeboat-stations/fleetwood-lifeboat-station" aria-label="RNLI Lifeboat website" target="_blank" rel="noreferrer">
+            Visit their website
+          </a>
+        </div>
+        <div class="charity-item">
+          <h3 class="sub__heading">
+            Lee Rigby Foundation
+          </h3>
+          <p class="text">
+            Founded by Lyn and Ian Rigby after the loss of their son, Fusilier Lee Rigby. Lyn’s own experience and that of her family is compelling evidence of need for this project, and it is to help other families in the same situation that they formed the Lee Rigby Foundation. Having found that there are a great many more families in similar need of such support, Lyn has become the driving force for the project.
+          </p>
+          <a class="text" href="http://leerigbyfoundation.org/" aria-label="Lee Rigby Foundation Website" target="_blank" rel="noreferrer">
+            Visit their website
+          </a>
+        </div>
       </div>
     </section>
     <section id="about" class="section">

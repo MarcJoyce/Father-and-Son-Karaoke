@@ -1,6 +1,27 @@
 const videos =
 [
   {
+    id: 105,
+    title: "Peggy Sue got Married",
+    artist: "Budd Holly",
+    description: "Buddy Holly recorded the vocal, accompanying himself on guitar, on December 8, 1958. It was posthumously released in July 1959 as a 45-rpm single with 'Crying, Waiting, Hoping'. It refers to his 1957 hit song 'Peggy Sue'. It was one of the first sequels of the rock era.",
+    link: "Uf3Bs65EGcw"
+  },
+  {
+    id: 104,
+    title: "2468 Motorway",
+    artist: "Tom Robinson",
+    description: "",
+    link: "SYPgdB1WKgs"
+  },
+  {
+    id: 103,
+    title: "Shake, Rattle 'n' Roll",
+    artist: "Bill Haley",
+    description: "",
+    link: "XfyBBG-gyRw"
+  },
+  {
     id: 102,
     title: "Baker Street",
     artist: "Gerry Rafferty",
@@ -936,7 +957,7 @@ const shop = [
   {
     title: "Lockdown 2020 Father and Son",
     description: "Golden Oldies Volume 1",
-    link: "https://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1/114754445030",
+    link: "https://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1/114877127433",
     image: "https://i.ebayimg.com/images/g/sJwAAOSwDl5gaz2d/s-l1600.jpg",
     image2: "/assets/cd_image_back.jpg",
     alt: "Father and Son CD"
@@ -1089,10 +1110,10 @@ const toggleDarkMode = () => {
 }
 
 const updateHeroContainer = () => {
- const heroName = document.querySelector(".hero__name");
- const heroArtist = document.querySelector(".hero__artist");
- const heroDescription = document.querySelector(".hero__description__text");
- const heroLink = document.querySelector(".hero__cta__link");
+ const heroName = document.querySelector(".hero-name");
+ const heroArtist = document.querySelector(".hero-artist");
+ const heroDescription = document.querySelector(".hero-description");
+ const heroLink = document.querySelector(".hero-cta-link");
 
  heroName.innerHTML = videos[0].title;
  heroArtist.innerHTML = videos[0].artist;
@@ -1152,4 +1173,4 @@ const timeNow = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate
   // loadNews();
   loadShop();
   updateHeroContainer();
-  imageSlider();
+  // imageSlider();
