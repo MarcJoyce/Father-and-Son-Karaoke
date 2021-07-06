@@ -1,6 +1,20 @@
 const videos =
 [
   {
+    id: 107,
+    title: "Little Sister",
+    artist: "Elvis Presley",
+    description: "'Little Sister' is a rock and roll song written by Doc Pomus and Mort Shuman. It was originally released as a single in 1961 by American singer Elvis Presley, who enjoyed a No. 5 hit with it on the Billboard Hot 100.",
+    link: "yWOzIaFd9JU"
+  },
+  {
+    id: 106,
+    title: "I Hear You Knockin'",
+    artist: "Dave Edwards",
+    description: "",
+    link: "p75uVoigW_o"
+  },
+  {
     id: 105,
     title: "Peggy Sue got Married",
     artist: "Buddy Holly",
