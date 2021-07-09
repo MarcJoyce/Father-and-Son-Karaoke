@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 108,
+    title: "Sweet Caroline",
+    artist: "Neil Diamond",
+    description: "In a 2007 interview, Diamond stated the inspiration for his song was John F. Kennedy's daughter, Caroline, who was eleven years old at the time it was released. Diamond sang the song to her at her 50th birthday celebration in 2007. In an interview in 2011, Diamond said that a magazine cover photo of Caroline Kennedy as a young child on a horse with her parents created an image in his mind, and the rest of the song came together about five years after seeing the picture",
+    link: "cNEh1-DpnpA"
+  },
+  {
     id: 107,
     title: "Little Sister",
     artist: "Elvis Presley",
