@@ -1,6 +1,19 @@
 const videos =
 [
   {
+    id: 110,
+    title: "Blue Suede Shoes",
+    artist: "Carl Perkins",
+    description: "'Blue Suede Shoes' is a rock-and-roll standard written and first recorded by Carl Perkins in 1955. It is considered one of the first rockabilly records, incorporating elements of blues, country and pop music of the time. Perkins' original version of the song appeared on the Cashbox Best Selling Singles list for 16 weeks and spent two weeks at the number two position",
+    link: "93AtHD5XFXA"
+  },
+  {
+    id: 109,
+    title: "The Last Time",
+    artist: "The Rolling Stones",
+    link: "9EiBslvSICM"
+  },
+  {
     id: 108,
     title: "Sweet Caroline",
     artist: "Neil Diamond",
