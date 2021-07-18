@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 112,
+    title: "Lay Down Sally",
+    artist: "Eric Clapton",
+    description: "'Lay Down Sally' is a song performed by Eric Clapton, and written by Clapton, Marcella Detroit and George Terry. It appeared on his November 1977 album Slowhand, and reached No. 3 on the Billboard Hot 100 chart.",
+    link: "5-FzBIieXWo"
+  },
+  {
     id: 111,
     title: "Route 66",
     artist: "Chuck Berry",
