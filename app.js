@@ -1,6 +1,25 @@
 const videos =
 [
   {
+    id: 115,
+    title: "Poetry in motion.",
+    artist: "Johnny Tillotson",
+    description: "The song was written by Paul Kaufman and Mike Anthony, who said that the inspiration for it came from looking up from their work and seeing a procession of young ladies from a nearby school pass by on the sidewalk outside each afternoon. In the US Billboard Hot 100, 'Poetry in Motion' peaked at number 2 in November 1960, kept out of the number 1 by Georgia on My Mind by Ray Charles. In the UK Singles Chart it hit No. 1 in January 1961, and also made the charts on reissue in 1979.",
+    link: "EEQ7gnZ5Cn8"
+  },
+  {
+    id: 114,
+    title: "(Sitting on the) Dock of the Bay",
+    artist: "Otis Redding",
+    link: "2Ej5DBUDjWc"
+  },
+  {
+    id: 113,
+    title: "Moon Shadow",
+    artist: "Cat Stevens",
+    link: "0SvLdZ0ww0A"
+  },
+  {
     id: 112,
     title: "Lay Down Sally",
     artist: "Eric Clapton",
