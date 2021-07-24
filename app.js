@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 118,
+    title: "Everlasting Love",
+    artist: "Love Affair",
+    description: "In the UK, 'Everlasting Love' was covered by the Love Affair, with a standout vocal performance by Steve Ellis it achieved No. 1 status in January 1968. That version eclipsed the Robert Knight original, which stalled at No. 40, although the latter was reissued in 1974 and reached No. 19 in the UK. Also in 1968, a cover by the Australian group Town Criers reached No. 2 in the Australian charts.",
+    link: "LuCsIPcxI_8"
+  },
+  {
     id: 117,
     title: "San Antone",
     artist: "Charley Pride",
