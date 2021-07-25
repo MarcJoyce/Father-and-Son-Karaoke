@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 119,
+    title: "Pretty Blue Eyes",
+    artist: "Craig Douglas",
+    description: "'Pretty Blue Eyes' is a song written by Teddy Randazzo and Bobby Weinstein. In 1959, it was a hit single for Steve Lawrence, and in 1960 for Craig Douglas.",
+    link: "x8jEqzjkK-I"
+  },
+  {
     id: 118,
     title: "Everlasting Love",
     artist: "Love Affair",
