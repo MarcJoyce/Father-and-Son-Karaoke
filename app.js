@@ -1,6 +1,41 @@
 const videos =
 [
   {
+    id: 124,
+    title: "Stuck On You",
+    artist: "Lionel Richie",
+    description: "'Stuck on You' is a song written by and originally recorded by Lionel Richie. It was the fourth single released from his second studio album Can't Slow Down released on May 1, 1984, by Motown, and achieved chart success, particularly in the U.S. and the UK, where it peaked at number three and number 12, respectively. ".
+    link: "mpSnvyeBxwU",
+  },
+  {
+    id: 123,
+    title: "Working Man Blues",
+    artist: "Merle Haggard",
+    description: "".
+    link: "GOYkvR6tEdc",
+  },
+  {
+    id: 122,
+    title: "Don't",
+    artist: "Elvis Presley",
+    description: "".
+    link: "hKtrtJEXgDg",
+  }, 
+  {
+    id: 121,
+    title: "Sea Cruise",
+    artist: "Frankie Ford",
+    description: "".
+    link: "IAx1JBEPS6Y",
+  },
+  {
+    id: 120,
+    title: "Venus in Blue Jeans",
+    artist: "Bobby Vee",
+    description: "".
+    link: "gmnf68Ka4SA",
+  },
+  {
     id: 119,
     title: "Pretty Blue Eyes",
     artist: "Craig Douglas",
