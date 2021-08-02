@@ -1,6 +1,19 @@
 const videos =
 [
   {
+    id: 127,
+    title: "Help Me Make It Through The Night",
+    artist: "Kris Kristofferson",
+    description: "'Help Me Make It Through The Night' is a country music ballad written and composed by Kris Kristofferson and released on his 1970 album Kristofferson. It was covered later in 1970 by Sammi Smith, on the album Help Me Make It Through the Night.",
+    link: "16ms4rCj1cE"
+  },
+  {
+    id: 126,
+    title: "Cry to Me",
+    artist: "Soloman Burke",
+    link: "wE3BJCj8KUo"
+  },
+  {
     id: 125,
     title: "Runaway",
     artist: "Del Shannon",
