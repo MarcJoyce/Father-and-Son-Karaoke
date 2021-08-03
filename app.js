@@ -31,28 +31,28 @@ const videos =
     id: 123,
     title: "Working Man Blues",
     artist: "Merle Haggard",
-    description: "".
+    description: "",
     link: "GOYkvR6tEdc",
   },
   {
     id: 122,
     title: "Don't",
     artist: "Elvis Presley",
-    description: "".
+    description: "",
     link: "hKtrtJEXgDg",
   }, 
   {
     id: 121,
     title: "Sea Cruise",
     artist: "Frankie Ford",
-    description: "".
+    description: "",
     link: "IAx1JBEPS6Y",
   },
   {
     id: 120,
     title: "Venus in Blue Jeans",
     artist: "Bobby Vee",
-    description: "".
+    description: "",
     link: "gmnf68Ka4SA",
   },
   {
