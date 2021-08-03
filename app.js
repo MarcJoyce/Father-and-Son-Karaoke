@@ -11,7 +11,7 @@ const videos =
     id: 126,
     title: "Cry to Me",
     artist: "Soloman Burke",
-    link: "wE3BJCj8KUo"
+    link: "hYbiYq8ruBg"
   },
   {
     id: 125,
