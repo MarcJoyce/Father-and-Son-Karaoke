@@ -24,8 +24,8 @@ const videos =
     id: 124,
     title: "Stuck On You",
     artist: "Lionel Richie",
-    description: "'Stuck on You' is a song written by and originally recorded by Lionel Richie. It was the fourth single released from his second studio album Can't Slow Down released on May 1, 1984, by Motown, and achieved chart success, particularly in the U.S. and the UK, where it peaked at number three and number 12, respectively. ".
-    link: "mpSnvyeBxwU",
+    description: "'Stuck on You' is a song written by and originally recorded by Lionel Richie. It was the fourth single released from his second studio album Can't Slow Down released on May 1, 1984, by Motown, and achieved chart success, particularly in the U.S. and the UK, where it peaked at number three and number 12, respectively.",
+    link: "mpSnvyeBxwU"
   },
   {
     id: 123,
