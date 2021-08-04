@@ -1,6 +1,13 @@
 const videos =
 [
   {
+    id: 128,
+    title: "Don't Cry Daddy",
+    artist: "Elvis Presley",
+    description: "'Don't Cry Daddy' is a 1969 song recorded by Elvis Presley written by Mac Davis. The song was paired with 'Rubberneckin'' and both peaked at number six in the United States Billboard Hot 100 chart in January 1970.",
+    link: "NUeauHTtijo"
+  },
+  {
     id: 127,
     title: "Help Me Make It Through The Night",
     artist: "Kris Kristofferson",
