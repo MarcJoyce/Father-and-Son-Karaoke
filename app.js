@@ -1,5 +1,33 @@
 const videos =
 [
+    {
+    id: 132,
+    title: "Take Good Care of My Baby",
+    artist: "Bobby Vee",
+    description: "While searching for material for Bobby Vee to record, Vee's producer Snuff Garrett heard a demo of Carole King singing 'Take Good Care of My Baby'. Garrett told publisher Don Kirshner that he wanted the song for Vee, but he believed the song needed an introductory verse. Garrett met with Carole King, and the introductory verse of Vee's version was written.",
+    link: "RENKouBqj3U"
+  },
+    {
+    id: 131,
+    title: "A Little Bit More",
+    artist: "Dr Hook",
+    description: "",
+    link: "Hh7YppArHog"
+  },
+   {
+    id: 130,
+    title: "Rubber Ball",
+    artist: "Bobby Vee",
+    description: "",
+    link: "vUw0uEkRa8k"
+  },
+  {
+    id: 129,
+    title: "Does My Ring Hurt Your Finger",
+    artist: "Charley Pride",
+    description: "",
+    link: "bd584KvaOJ0"
+  },
   {
     id: 128,
     title: "Don't Cry Daddy",
