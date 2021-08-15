@@ -1,6 +1,17 @@
 const videos =
 [
     {
+        title: "I Knew The Bride",
+        artist: "Nick Lowe",
+        description: "'I Knew the Bride (When She Used to Rock 'n' Roll)' is a song written by Nick Lowe and first popularized by Dave Edmunds. It was released on Edmunds's 1977 album Get It and a year later in a live version by Nick Lowe's Last Chicken in the Shop on Live Stiffs Live",
+        link: "w1XefhhknUk"
+    },
+    {
+    title: "I'm a Believer",
+        artist:"The Monkees",
+        link:"J1QvCfWRWr4"
+    },
+    {
         id: 135,
         title: "Dumas Walker",
         artist: "Kentucky Headhunters",
