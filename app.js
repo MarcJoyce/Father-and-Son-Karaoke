@@ -1,6 +1,17 @@
 const videos =
 [
     {
+        title: "Way Down",
+        artist: "Elvis Presley",
+        description: "The last song released before his death in August 1977, 'Way Down' was a hit reaching #1 in both the US and UK Singles Charts. The song would later be covered by Status Quo and Cliffhanger. Presley recorded the song at his home studio in Graceland on in October 1976. Elvis Presley has achieved five posthumous UK number-one hits; one shortly after his death in 1977 and four in the 2000s with re-releases of older songs; more than any other artist.",
+        link: "1I8HOStF7cY"
+    },
+    {
+    title: "I'm Never Gonna Fall In Love Again",
+        artist: "Tom Jones",
+        link: "2mZ76LmStTQ"
+    },
+    {
         title: "I Knew The Bride",
         artist: "Nick Lowe",
         description: "'I Knew the Bride (When She Used to Rock 'n' Roll)' is a song written by Nick Lowe and first popularized by Dave Edmunds. It was released on Edmunds's 1977 album Get It and a year later in a live version by Nick Lowe's Last Chicken in the Shop on Live Stiffs Live",
