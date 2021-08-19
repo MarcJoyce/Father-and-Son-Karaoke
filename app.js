@@ -1,6 +1,17 @@
 const videos =
 [
     {
+    title: "Little Town Flirt",
+        artist: "Del Shannon",
+        description: "'Little Town Flirt' is a song by Del Shannon, which he released as a single in 1962 and on the album Little Town Flirt in 1963. The song spent 14 weeks on the Billboard Hot 100 chart, peaking at No. 12, while reaching No. 1 on the Irish Singles Chart, No. 1 in Australia,[4] No. 4 on the UK's Record Retailer chart, No. 7 on New Zealand's 'Lever Hit Parade', and No. 9 on Canada's CHUM Hit Parade.",
+        link: "https://youtu.be/b9Mb4a9SpyE"
+    },
+    {
+    title: "Your Man",
+        artist:"Josh Turner",
+        link: "7rRvrKUWFjY"
+    },
+    {
         title: "Way Down",
         artist: "Elvis Presley",
         description: "The last song released before his death in August 1977, 'Way Down' was a hit reaching #1 in both the US and UK Singles Charts. The song would later be covered by Status Quo and Cliffhanger. Presley recorded the song at his home studio in Graceland on in October 1976. Elvis Presley has achieved five posthumous UK number-one hits; one shortly after his death in 1977 and four in the 2000s with re-releases of older songs; more than any other artist.",
