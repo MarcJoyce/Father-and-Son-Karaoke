@@ -3,7 +3,7 @@ const videos =
     {
     title: "Little Town Flirt",
         artist: "Del Shannon",
-        description: "'Little Town Flirt' is a song by Del Shannon, which he released as a single in 1962 and on the album Little Town Flirt in 1963. The song spent 14 weeks on the Billboard Hot 100 chart, peaking at No. 12, while reaching No. 1 on the Irish Singles Chart, No. 1 in Australia,[4] No. 4 on the UK's Record Retailer chart, No. 7 on New Zealand's 'Lever Hit Parade', and No. 9 on Canada's CHUM Hit Parade.",
+        description: "'Little Town Flirt' is a song by Del Shannon, which he released as a single in 1962 and on the album Little Town Flirt in 1963. The song spent 14 weeks on the Billboard Hot 100 chart, peaking at No. 12, while reaching No. 1 on the Irish Singles Chart, No. 1 in Australia, No. 4 on the UK's Record Retailer chart, No. 7 on New Zealand's 'Lever Hit Parade', and No. 9 on Canada's CHUM Hit Parade.",
         link: "https://youtu.be/b9Mb4a9SpyE"
     },
     {
