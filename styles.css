@@ -273,10 +273,12 @@ section {
 }
 
 .hero-image {
-  object-position: 10%;
+  -o-object-position: 10%;
+     object-position: 10%;
   width: auto;
   max-height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* Ambassadors Section */
@@ -409,6 +411,11 @@ section {
   }
 
 /* Charity Section */
+
+#charity p {
+  white-space: normal;
+  text-align: center;
+}
 
 .charity-container {
   display: flex;
