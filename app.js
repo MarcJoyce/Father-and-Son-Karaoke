@@ -1,5 +1,16 @@
 const videos =
 [
+  {
+    title: "More Than I Can Say",
+    artist: "Bobby Vee",
+    description: "'More Than I Can Say' is a song written by Sonny Curtis and Jerry Allison, both former members of Buddy Holly's band the Crickets. They recorded it in 1959 soon after Holly's death and released it in 1960. Their original version hit No. 42 on British Record Retailer Chart in 1960. It has been notably performed by singers Bobby Vee, Leo Sayer, and Sammy Kershaw.",
+    link: "0d3zGwEoqAY"
+  },
+  {
+    title: "Teenager in Love",
+    artist: "Dion and the Belmonts",
+    link: "MZfL-stFQng"
+  },
     {
     title: "Little Town Flirt",
         artist: "Del Shannon",
