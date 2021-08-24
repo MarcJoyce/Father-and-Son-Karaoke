@@ -1,6 +1,12 @@
 const videos =
 [
   {
+    title: "The Answer to Everything",
+    artist: "David Alexander",
+    description: "David Alexander was a Welsh singer and entertainer. He began his career singing in social clubs, eventually obtaining wider recognition. His album Reflections sold 150,000 copies in 1988. He released 'The Answer to Everything' in 1979",
+    link: "QpGPnPbMDpY"
+  },
+  {
     title: "More Than I Can Say",
     artist: "Bobby Vee",
     description: "'More Than I Can Say' is a song written by Sonny Curtis and Jerry Allison, both former members of Buddy Holly's band the Crickets. They recorded it in 1959 soon after Holly's death and released it in 1960. Their original version hit No. 42 on British Record Retailer Chart in 1960. It has been notably performed by singers Bobby Vee, Leo Sayer, and Sammy Kershaw.",
