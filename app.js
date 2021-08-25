@@ -1,6 +1,12 @@
 const videos =
 [
   {
+    title: "Blue Blue Day",
+    artist: "Don Gibson",
+    description: "'Blue Blue Day' went to number one for two weeks on the Country & Western Best Seller chart and remained on that chart for a total of six months. The song also was Don Gibson's second of four Top 40 entries, where it peaked at number twenty.",
+    link: "-iC7Crticbk"
+  },
+  {
     title: "The Answer to Everything",
     artist: "David Alexander",
     description: "David Alexander was a Welsh singer and entertainer. He began his career singing in social clubs, eventually obtaining wider recognition. His album Reflections sold 150,000 copies in 1988. He released 'The Answer to Everything' in 1979",
