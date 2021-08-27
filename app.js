@@ -1,6 +1,18 @@
 const videos =
 [
   {
+    title: "When Will I Be Loved",
+    artist: "The Everly Brothers",
+    description: "'When Will I Be Loved' is a classic popular song written by Phil Everly of the Everly Brothers, who had a US top-ten hit with it in 1960. Linda Ronstadt covered the song in 1975, and her version was an even bigger hit in the US, peaking at No. 2. Vince Gill also covered it in 1994 on the soundtrack of the film 8 Seconds.",
+    link: "m8IidxnJWDA"
+  },
+  {
+    title: "Loving You",
+    artist: "Elvis Presley",
+    description: "'Loving You' is a song written by Jerry Leiber and Mike Stoller and performed by Elvis Presley featuring The Jordanaires. It reached No. 15 on the U.S. country chart, #20 on the U.S. pop chart, and #24 on the UK Singles Chart in 1957.",
+    link: "MwWHVscyE0I"
+  },
+  {
     title: "Blue Blue Day",
     artist: "Don Gibson",
     description: "'Blue Blue Day' went to number one for two weeks on the Country & Western Best Seller chart and remained on that chart for a total of six months. The song also was Don Gibson's second of four Top 40 entries, where it peaked at number twenty.",
