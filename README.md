@@ -3,4 +3,4 @@ A Father and Son Duo musical act from Fleetwood, UK started recording videos of 
 
 Built in HTML, CSS and JS
 
-Future plans to refactor into a REACT offering with a CMS to update content, rather than update through JS.
+Website depreciated 1st September 2021. 
