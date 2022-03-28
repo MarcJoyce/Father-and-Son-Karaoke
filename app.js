@@ -1011,59 +1011,59 @@ link: "PWgOk-UNF2E"
 const images = [
   {
     id: 1,
-    link: "/assets/gallery/photo1.jpg",
+    link: "assets/gallery/photo1.jpg",
   },
   {
     id: 2,
-    link: "/assets/gallery/photo2.jpg",
+    link: "assets/gallery/photo2.jpg",
   },
   {
     id: 3,
-    link: "/assets/gallery/photo3.jpg",
+    link: "assets/gallery/photo3.jpg",
   },
   {
     id: 4,
-    link: "/assets/gallery/photo4.jpg",
+    link: "assets/gallery/photo4.jpg",
   },
   {
     id: 5,
-    link: "/assets/gallery/photo5.jpg",
+    link: "assets/gallery/photo5.jpg",
   },
   {
     id: 6,
-    link: "/assets/gallery/photo6.jpg",
+    link: "assets/gallery/photo6.jpg",
   },
   {
     id: 7,
-    link: "/assets/gallery/photo7.jpg",
+    link: "assets/gallery/photo7.jpg",
   },
   {
     id: 8,
-    link: "/assets/gallery/photo8.jpg",
+    link: "assets/gallery/photo8.jpg",
   },
   {
     id: 9,
-    link: "/assets/gallery/photo9.jpg",
+    link: "assets/gallery/photo9.jpg",
   },
   {
     id: 10,
-    link: "/assets/gallery/photo10.jpg",
+    link: "assets/gallery/photo10.jpg",
   },
   {
     id: 11,
-    link: "/assets/gallery/photo11.jpg",
+    link: "assets/gallery/photo11.jpg",
   },
   {
     id: 12,
-    link: "/assets/gallery/photo12.jpg",
+    link: "assets/gallery/photo12.jpg",
   },
   {
     id: 13,
-    link: "/assets/gallery/photo13.jpg",
+    link: "assets/gallery/photo13.jpg",
   },
   {
     id: 14,
-    link: "/assets/gallery/photo14.jpg",
+    link: "assets/gallery/photo14.jpg",
   },
 ];
 
@@ -1225,7 +1225,7 @@ const shop = [
     description: "Golden Oldies Volume 1",
     link: "https://www.ebay.co.uk/itm/Father-and-son-Karaoke-CD1/114877127433",
     image: "https://i.ebayimg.com/images/g/sJwAAOSwDl5gaz2d/s-l1600.jpg",
-    image2: "/assets/cd_image_back.jpg",
+    image2: "assets/cd_image_back.jpg",
     alt: "Father and Son CD"
   },
   {
@@ -1233,7 +1233,7 @@ const shop = [
     description: "Golden Oldies Volume 2",
     link: "https://www.ebay.co.uk/itm/Father-And-Son-CD-2/114824431477",
     image: "https://i.ebayimg.com/images/g/z14AAOSw2INgZuei/s-l1600.jpg",
-    image2: "/assets/cd_image_2_back.jpg",
+    image2: "assets/cd_image_2_back.jpg",
     alt: "Father and Son CD - 2"
   },
 ]
